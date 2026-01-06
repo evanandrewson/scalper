@@ -16,12 +16,12 @@ async function main() {
   // Health check server for cloud hosting
   const app = express();
   const port = process.env.PORT || 3000;
-  
-  app.get('/', (req, res) => {
+
+  app.get('/', (_req, res) => {
     res.send('VWAP Scalper Bot is Running');
   });
 
-  app.get('/health', (req, res) => {
+  app.get('/health', (_req, res) => {
     res.json({ status: 'ok', timestamp: new Date() });
   });
 

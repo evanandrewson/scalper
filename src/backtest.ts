@@ -4,16 +4,12 @@ import {
   createVWAPState,
   updateVWAP,
   getVWAP,
-  getDeviation,
-  VWAPState,
 } from './vwap.js';
 import {
   createStrategyState,
   evaluateStrategy,
-  StrategyState,
-  Position,
 } from './strategy.js';
-import { createRiskState, RiskState, checkDailyReset } from './risk-manager.js';
+import { createRiskState, checkDailyReset } from './risk-manager.js';
 import { logger } from './utils/logger.js';
 import fs from 'fs';
 import path from 'path';
@@ -58,9 +54,6 @@ export const runBacktest = async (
   const trades: TradeRecord[] = [];
   let peakPnL = 0;
   let maxDrawdown = 0;
-
-  // Helper to detect closed trades
-  const closedTradesLookup = new Map<string, Position>(); // To track what we "had"
 
   for (let i = 0; i < bars.length; i++) {
     const bar = bars[i];
