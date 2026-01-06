@@ -1,0 +1,1453 @@
+
+> vwap-scalper-bot@1.0.0 backtest
+> tsx src/backtest.ts run
+
+3:41:13 PM | info | Starting backtest for NVDA with 121327 bars...
+Bar 0: Price $157.13 | VWAP $157.13 | Diff 0.00
+3:41:13 PM | info | NVDA: Eval - price:156.68, vwap:156.97, dev:-0.186%, slope:-0.0060, rsi:32.59
+3:41:13 PM | info | NVDA: Eval - price:155.99, vwap:156.37, dev:-0.241%, slope:-0.0234, rsi:30.51
+3:41:13 PM | info | NVDA: Eval - price:153.26, vwap:154.06, dev:-0.519%, slope:-0.0200, rsi:62.65
+3:41:13 PM | info | NVDA: Eval - price:153.88, vwap:154.04, dev:-0.105%, slope:-0.0026, rsi:77.74
+3:41:13 PM | info | NVDA: Eval - price:154.27, vwap:154.10, dev:0.112%, slope:0.0013, rsi:42.14
+3:41:13 PM | info | NVDA: Eval - price:153.69, vwap:154.07, dev:-0.245%, slope:-0.0027, rsi:62.14
+3:41:13 PM | info | NVDA: Eval - price:153.05, vwap:153.95, dev:-0.582%, slope:-0.0002, rsi:36.11
+3:41:13 PM | info | NVDA: Eval - price:153.13, vwap:153.95, dev:-0.530%, slope:-0.0001, rsi:55.44
+3:41:13 PM | info | NVDA: Eval - price:152.97, vwap:153.94, dev:-0.631%, slope:-0.0001, rsi:43.93
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-02T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:153.15, vwap:153.40, dev:-0.166%, slope:-0.0096, rsi:33.05
+Bar 1000: Price $153.26 | VWAP $153.39 | Diff -0.13
+3:41:13 PM | info | NVDA: Eval - price:152.22, vwap:152.54, dev:-0.209%, slope:-0.0099, rsi:54.68
+3:41:13 PM | info | NVDA: Eval - price:154.72, vwap:153.48, dev:0.811%, slope:0.3935, rsi:80.97
+3:41:13 PM | info | NVDA: Eval - price:154.26, vwap:154.00, dev:0.172%, slope:0.0207, rsi:43.66
+3:41:13 PM | info | NVDA: Eval - price:156.65, vwap:155.53, dev:0.717%, slope:0.0116, rsi:67.10
+3:41:13 PM | info | NVDA: Eval - price:156.88, vwap:156.01, dev:0.558%, slope:0.0051, rsi:39.67
+3:41:13 PM | info | NVDA: Eval - price:156.77, vwap:156.03, dev:0.474%, slope:0.0042, rsi:41.17
+3:41:13 PM | info | NVDA: Eval - price:157.10, vwap:156.30, dev:0.512%, slope:0.0001, rsi:57.84
+3:41:13 PM | info | NVDA: Eval - price:156.99, vwap:156.30, dev:0.440%, slope:0.0001, rsi:40.42
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-03T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:157.04, vwap:157.24, dev:-0.125%, slope:-0.0046, rsi:35.20
+Bar 2000: Price $156.76 | VWAP $157.18 | Diff -0.42
+3:41:13 PM | info | NVDA: Eval - price:156.90, vwap:157.17, dev:-0.171%, slope:-0.0124, rsi:52.67
+3:41:13 PM | info | NVDA: Eval - price:157.00, vwap:157.05, dev:-0.035%, slope:-0.0025, rsi:47.52
+3:41:13 PM | info | NVDA: Eval - price:157.15, vwap:157.06, dev:0.059%, slope:0.0012, rsi:68.59
+3:41:13 PM | info | NVDA: Eval - price:157.82, vwap:157.28, dev:0.346%, slope:0.0529, rsi:69.84
+3:41:13 PM | info | NVDA: Eval - price:159.64, vwap:159.43, dev:0.131%, slope:0.0052, rsi:30.33
+3:41:13 PM | info | NVDA: Eval - price:159.26, vwap:159.43, dev:-0.105%, slope:-0.0029, rsi:53.25
+3:41:13 PM | info | NVDA: Eval - price:159.27, vwap:159.40, dev:-0.079%, slope:-0.0054, rsi:74.03
+3:41:13 PM | info | NVDA: Eval - price:159.26, vwap:159.38, dev:-0.077%, slope:-0.0000, rsi:40.86
+3:41:13 PM | info | NVDA: Eval - price:159.31, vwap:159.38, dev:-0.045%, slope:-0.0000, rsi:75.71
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-07T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:157.56, vwap:157.93, dev:-0.232%, slope:-0.0131, rsi:37.73
+3:41:13 PM | info | NVDA: Eval - price:157.85, vwap:157.91, dev:-0.040%, slope:-0.0011, rsi:51.66
+3:41:13 PM | info | NVDA: Eval - price:157.78, vwap:157.91, dev:-0.083%, slope:-0.0021, rsi:39.83
+Bar 3000: Price $158.14 | VWAP $158.06 | Diff 0.08
+3:41:13 PM | info | NVDA: Eval - price:158.04, vwap:158.41, dev:-0.236%, slope:-0.0074, rsi:63.23
+3:41:13 PM | info | NVDA: Eval - price:158.04, vwap:158.39, dev:-0.219%, slope:-0.0069, rsi:43.84
+3:41:13 PM | info | NVDA: Eval - price:158.39, vwap:158.32, dev:0.038%, slope:-0.0014, rsi:62.00
+3:41:13 PM | info | NVDA: Eval - price:158.15, vwap:158.30, dev:-0.096%, slope:-0.0001, rsi:56.52
+3:41:13 PM | info | NVDA: Eval - price:157.92, vwap:158.30, dev:-0.241%, slope:-0.0000, rsi:39.65
+3:41:13 PM | info | NVDA: Eval - price:157.95, vwap:158.30, dev:-0.221%, slope:-0.0000, rsi:60.15
+3:41:13 PM | info | NVDA: Eval - price:157.99, vwap:158.30, dev:-0.196%, slope:-0.0000, rsi:51.30
+3:41:13 PM | info | NVDA: Eval - price:158.17, vwap:158.30, dev:-0.082%, slope:-0.0000, rsi:52.45
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-08T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:159.56, vwap:159.48, dev:0.048%, slope:0.0021, rsi:62.04
+3:41:13 PM | info | NVDA: Eval - price:158.88, vwap:159.29, dev:-0.255%, slope:-0.0583, rsi:30.77
+3:41:13 PM | info | NVDA: Eval - price:159.06, vwap:159.09, dev:-0.017%, slope:-0.0074, rsi:64.45
+Bar 4000: Price $159.02 | VWAP $159.12 | Diff -0.10
+3:41:13 PM | info | NVDA: Eval - price:159.77, vwap:159.35, dev:0.270%, slope:0.0077, rsi:40.17
+3:41:13 PM | info | NVDA: Eval - price:160.23, vwap:159.47, dev:0.477%, slope:0.0001, rsi:55.49
+3:41:13 PM | info | NVDA: Eval - price:160.20, vwap:159.47, dev:0.458%, slope:0.0001, rsi:50.59
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-09T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:159.81, vwap:159.88, dev:-0.042%, slope:-0.0040, rsi:54.08
+3:41:13 PM | info | NVDA: Eval - price:160.12, vwap:160.03, dev:0.057%, slope:0.0011, rsi:49.75
+3:41:13 PM | info | NVDA: Eval - price:160.87, vwap:160.52, dev:0.219%, slope:0.0844, rsi:72.07
+3:41:13 PM | info | NVDA: Eval - price:160.98, vwap:160.56, dev:0.259%, slope:0.0144, rsi:72.90
+3:41:13 PM | info | NVDA: Eval - price:163.99, vwap:163.06, dev:0.569%, slope:0.1341, rsi:61.29
+Bar 5000: Price $163.38 | VWAP $163.23 | Diff 0.15
+3:41:13 PM | info | NVDA: Eval - price:163.38, vwap:163.23, dev:0.093%, slope:0.0027, rsi:77.90
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-10T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:163.70, vwap:163.67, dev:0.019%, slope:0.0105, rsi:68.30
+3:41:13 PM | info | NVDA: Eval - price:163.55, vwap:163.87, dev:-0.194%, slope:-0.0264, rsi:38.99
+Bar 6000: Price $162.83 | VWAP $162.96 | Diff -0.13
+3:41:13 PM | info | NVDA: Eval - price:163.95, vwap:163.18, dev:0.472%, slope:0.0034, rsi:62.64
+3:41:13 PM | info | NVDA: Eval - price:164.24, vwap:163.28, dev:0.590%, slope:0.0092, rsi:72.85
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-11T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:162.80, vwap:162.85, dev:-0.029%, slope:-0.0005, rsi:45.19
+3:41:13 PM | info | NVDA: Eval - price:163.23, vwap:162.87, dev:0.218%, slope:0.0105, rsi:81.82
+3:41:13 PM | info | NVDA: Eval - price:166.16, vwap:165.21, dev:0.580%, slope:0.0838, rsi:56.16
+3:41:13 PM | info | NVDA: Eval - price:166.31, vwap:166.30, dev:0.007%, slope:-0.0006, rsi:59.09
+Bar 7000: Price $166.47 | VWAP $166.30 | Diff 0.17
+3:41:13 PM | info | NVDA: Eval - price:166.36, vwap:166.31, dev:0.033%, slope:0.0012, rsi:34.09
+3:41:13 PM | info | NVDA: Eval - price:166.16, vwap:166.30, dev:-0.081%, slope:-0.0006, rsi:44.06
+3:41:13 PM | info | NVDA: Eval - price:165.13, vwap:166.16, dev:-0.617%, slope:-0.0056, rsi:42.78
+3:41:13 PM | info | NVDA: Eval - price:165.12, vwap:166.15, dev:-0.624%, slope:-0.0087, rsi:42.19
+3:41:13 PM | info | NVDA: Eval - price:165.01, vwap:165.99, dev:-0.588%, slope:-0.0006, rsi:52.02
+3:41:13 PM | info | NVDA: Eval - price:165.04, vwap:165.98, dev:-0.567%, slope:-0.0002, rsi:55.86
+3:41:13 PM | info | NVDA: Eval - price:165.04, vwap:165.97, dev:-0.562%, slope:-0.0000, rsi:60.87
+3:41:13 PM | info | NVDA: Eval - price:164.94, vwap:165.97, dev:-0.621%, slope:-0.0000, rsi:41.44
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-14T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:165.08, vwap:165.10, dev:-0.014%, slope:0.0018, rsi:40.00
+3:41:13 PM | info | NVDA: Eval - price:163.30, vwap:163.69, dev:-0.240%, slope:-0.0307, rsi:61.18
+3:41:13 PM | info | NVDA: Eval - price:165.24, vwap:163.83, dev:0.858%, slope:0.0605, rsi:90.67
+3:41:13 PM | info | NVDA: Eval - price:164.76, vwap:163.95, dev:0.494%, slope:0.0128, rsi:41.87
+3:41:13 PM | info | NVDA: Eval - price:164.87, vwap:164.02, dev:0.516%, slope:0.0095, rsi:35.46
+3:41:13 PM | info | NVDA: Eval - price:165.06, vwap:164.04, dev:0.620%, slope:0.0145, rsi:52.05
+3:41:13 PM | info | NVDA: Eval - price:164.90, vwap:164.05, dev:0.515%, slope:0.0104, rsi:34.49
+3:41:13 PM | info | NVDA: Eval - price:164.88, vwap:164.12, dev:0.463%, slope:0.0066, rsi:54.37
+3:41:13 PM | info | NVDA: Eval - price:165.03, vwap:164.14, dev:0.542%, slope:0.0075, rsi:76.31
+Bar 8000: Price $165.14 | VWAP $164.19 | Diff 0.95
+3:41:13 PM | info | NVDA: Eval - price:164.03, vwap:164.27, dev:-0.146%, slope:-0.0000, rsi:58.18
+3:41:13 PM | info | NVDA: Eval - price:163.97, vwap:164.27, dev:-0.181%, slope:-0.0000, rsi:61.27
+3:41:13 PM | info | NVDA: Eval - price:163.97, vwap:164.27, dev:-0.181%, slope:-0.0000, rsi:49.33
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-15T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:171.32, vwap:170.83, dev:0.285%, slope:0.0453, rsi:63.16
+3:41:13 PM | info | NVDA: Eval - price:171.31, vwap:171.61, dev:-0.173%, slope:-0.0056, rsi:42.94
+3:41:13 PM | info | NVDA: Eval - price:171.36, vwap:171.60, dev:-0.141%, slope:-0.0030, rsi:56.35
+3:41:13 PM | info | NVDA: Eval - price:171.55, vwap:171.60, dev:-0.029%, slope:-0.0024, rsi:76.49
+3:41:13 PM | info | NVDA: Eval - price:171.29, vwap:171.51, dev:-0.126%, slope:-0.0032, rsi:40.63
+3:41:13 PM | info | NVDA: Eval - price:171.13, vwap:170.85, dev:0.165%, slope:0.0040, rsi:87.66
+3:41:13 PM | info | NVDA: Eval - price:171.85, vwap:171.03, dev:0.484%, slope:0.0177, rsi:48.37
+Bar 9000: Price $170.93 | VWAP $171.04 | Diff -0.11
+3:41:13 PM | info | NVDA: Eval - price:170.16, vwap:170.91, dev:-0.439%, slope:-0.0002, rsi:45.83
+3:41:13 PM | info | NVDA: Eval - price:170.20, vwap:170.91, dev:-0.414%, slope:-0.0000, rsi:46.50
+3:41:13 PM | info | NVDA: Eval - price:170.17, vwap:170.91, dev:-0.431%, slope:-0.0001, rsi:69.36
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-16T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:169.85, vwap:169.48, dev:0.217%, slope:0.0916, rsi:55.54
+3:41:13 PM | info | NVDA: Eval - price:170.80, vwap:170.20, dev:0.354%, slope:0.3514, rsi:59.27
+3:41:13 PM | info | NVDA: Eval - price:170.88, vwap:171.00, dev:-0.071%, slope:-0.0047, rsi:42.12
+3:41:13 PM | info | NVDA: Eval - price:169.85, vwap:170.29, dev:-0.261%, slope:-0.0096, rsi:61.39
+3:41:13 PM | info | NVDA: Eval - price:171.06, vwap:170.32, dev:0.440%, slope:0.0131, rsi:85.97
+3:41:13 PM | info | NVDA: Eval - price:170.94, vwap:170.38, dev:0.323%, slope:0.0023, rsi:45.28
+Bar 10000: Price $170.98 | VWAP $170.44 | Diff 0.54
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-17T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:172.99, vwap:172.91, dev:0.048%, slope:0.0029, rsi:52.58
+3:41:13 PM | info | NVDA: Eval - price:172.34, vwap:172.73, dev:-0.226%, slope:-0.0048, rsi:59.81
+3:41:13 PM | info | NVDA: Eval - price:172.59, vwap:172.64, dev:-0.027%, slope:-0.0723, rsi:79.69
+3:41:13 PM | info | NVDA: Eval - price:172.67, vwap:172.64, dev:0.019%, slope:0.0008, rsi:71.71
+3:41:13 PM | info | NVDA: Eval - price:172.65, vwap:172.64, dev:0.008%, slope:0.0004, rsi:55.24
+3:41:13 PM | info | NVDA: Eval - price:172.74, vwap:172.64, dev:0.059%, slope:0.0016, rsi:60.68
+3:41:13 PM | info | NVDA: Eval - price:171.53, vwap:172.29, dev:-0.442%, slope:-0.3087, rsi:15.30
+3:41:13 PM | info | NVDA: Eval - price:172.82, vwap:172.43, dev:0.224%, slope:0.0154, rsi:45.01
+3:41:13 PM | info | NVDA: Eval - price:173.04, vwap:172.53, dev:0.296%, slope:0.0089, rsi:60.81
+3:41:13 PM | info | NVDA: Eval - price:173.03, vwap:172.60, dev:0.250%, slope:0.0063, rsi:46.65
+3:41:13 PM | info | NVDA: Eval - price:173.72, vwap:172.89, dev:0.476%, slope:0.0054, rsi:65.24
+Bar 11000: Price $173.31 | VWAP $173.03 | Diff 0.28
+3:41:13 PM | info | NVDA: Eval - price:173.16, vwap:173.05, dev:0.061%, slope:0.0000, rsi:54.66
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-18T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:173.81, vwap:173.78, dev:0.019%, slope:0.0020, rsi:49.61
+3:41:13 PM | info | NVDA: Eval - price:173.71, vwap:173.80, dev:-0.050%, slope:-0.0037, rsi:45.52
+3:41:13 PM | info | NVDA: Eval - price:173.88, vwap:173.80, dev:0.046%, slope:0.0010, rsi:62.37
+3:41:13 PM | info | NVDA: Eval - price:173.77, vwap:173.79, dev:-0.011%, slope:-0.0004, rsi:49.77
+3:41:13 PM | info | NVDA: Eval - price:173.76, vwap:173.79, dev:-0.016%, slope:-0.0004, rsi:49.48
+3:41:13 PM | info | NVDA: Eval - price:172.25, vwap:173.38, dev:-0.653%, slope:-0.0962, rsi:11.17
+3:41:13 PM | info | NVDA: Eval - price:172.41, vwap:173.20, dev:-0.454%, slope:-0.0327, rsi:52.25
+3:41:13 PM | info | NVDA: Eval - price:172.52, vwap:172.76, dev:-0.140%, slope:-0.0029, rsi:59.52
+3:41:13 PM | info | NVDA: Eval - price:172.47, vwap:172.66, dev:-0.105%, slope:-0.0021, rsi:63.27
+3:41:13 PM | info | NVDA: Eval - price:172.38, vwap:172.53, dev:-0.089%, slope:-0.0000, rsi:48.20
+Bar 12000: Price $172.39 | VWAP $172.53 | Diff -0.14
+3:41:13 PM | info | NVDA: Eval - price:172.46, vwap:172.53, dev:-0.042%, slope:-0.0000, rsi:45.33
+3:41:13 PM | info | NVDA: Eval - price:172.50, vwap:172.53, dev:-0.019%, slope:-0.0000, rsi:50.43
+3:41:13 PM | info | NVDA: Eval - price:172.42, vwap:172.53, dev:-0.065%, slope:-0.0000, rsi:38.30
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-21T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:172.76, vwap:172.84, dev:-0.048%, slope:-0.0142, rsi:34.20
+3:41:13 PM | info | NVDA: Eval - price:172.43, vwap:172.65, dev:-0.127%, slope:-0.0062, rsi:32.31
+3:41:13 PM | info | NVDA: Eval - price:172.50, vwap:172.44, dev:0.035%, slope:0.0067, rsi:51.18
+3:41:13 PM | info | NVDA: Eval - price:172.32, vwap:172.49, dev:-0.095%, slope:-0.0005, rsi:36.15
+3:41:13 PM | info | NVDA: Eval - price:172.35, vwap:172.49, dev:-0.076%, slope:-0.0017, rsi:52.04
+Bar 13000: Price $170.59 | VWAP $172.22 | Diff -1.63
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-22T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:170.46, vwap:170.46, dev:-0.001%, slope:0.0011, rsi:54.73
+3:41:13 PM | info | NVDA: Eval - price:170.59, vwap:170.08, dev:0.302%, slope:0.0100, rsi:51.29
+3:41:13 PM | info | NVDA: Eval - price:166.70, vwap:167.32, dev:-0.370%, slope:-0.0619, rsi:69.61
+3:41:13 PM | info | NVDA: Eval - price:167.71, vwap:167.21, dev:0.296%, slope:0.0124, rsi:35.07
+3:41:13 PM | info | NVDA: Eval - price:167.95, vwap:167.24, dev:0.427%, slope:0.0141, rsi:50.08
+3:41:13 PM | info | NVDA: Eval - price:167.86, vwap:167.24, dev:0.368%, slope:0.0071, rsi:45.58
+3:41:13 PM | info | NVDA: Eval - price:167.47, vwap:167.41, dev:0.034%, slope:0.0005, rsi:39.00
+3:41:13 PM | info | NVDA: Eval - price:167.75, vwap:167.51, dev:0.148%, slope:0.0015, rsi:28.69
+3:41:13 PM | info | NVDA: Eval - price:167.86, vwap:167.52, dev:0.206%, slope:0.0015, rsi:50.93
+3:41:13 PM | info | NVDA: Eval - price:166.11, vwap:167.43, dev:-0.790%, slope:-0.0007, rsi:24.53
+3:41:13 PM | info | NVDA: Eval - price:166.53, vwap:167.43, dev:-0.538%, slope:-0.0001, rsi:61.84
+Bar 14000: Price $166.52 | VWAP $167.43 | Diff -0.91
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-23T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:168.36, vwap:168.15, dev:0.126%, slope:0.0339, rsi:62.06
+3:41:13 PM | info | NVDA: Eval - price:168.42, vwap:168.23, dev:0.115%, slope:0.0076, rsi:49.59
+3:41:13 PM | info | NVDA: Eval - price:168.58, vwap:169.36, dev:-0.459%, slope:-0.0705, rsi:41.69
+3:41:13 PM | info | NVDA: Eval - price:168.63, vwap:169.13, dev:-0.294%, slope:-0.0143, rsi:37.88
+3:41:13 PM | info | NVDA: Eval - price:168.81, vwap:169.18, dev:-0.221%, slope:-0.0051, rsi:45.51
+3:41:13 PM | info | NVDA: Eval - price:170.56, vwap:169.38, dev:0.691%, slope:0.0088, rsi:39.25
+3:41:13 PM | info | NVDA: Eval - price:170.78, vwap:169.50, dev:0.753%, slope:0.0106, rsi:45.02
+3:41:13 PM | info | NVDA: Eval - price:170.69, vwap:169.51, dev:0.694%, slope:0.0065, rsi:34.78
+Bar 15000: Price $172.40 | VWAP $169.79 | Diff 2.61
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-24T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:172.73, vwap:172.54, dev:0.110%, slope:0.0106, rsi:59.88
+3:41:13 PM | info | NVDA: Eval - price:172.78, vwap:172.64, dev:0.079%, slope:0.0033, rsi:47.40
+3:41:13 PM | info | NVDA: Eval - price:172.68, vwap:172.66, dev:0.009%, slope:-0.0001, rsi:63.44
+3:41:13 PM | info | NVDA: Eval - price:172.62, vwap:172.60, dev:0.013%, slope:0.0002, rsi:55.14
+3:41:13 PM | info | NVDA: Eval - price:172.20, vwap:172.53, dev:-0.193%, slope:-0.0098, rsi:38.24
+3:41:13 PM | info | NVDA: Eval - price:173.57, vwap:172.84, dev:0.419%, slope:0.0045, rsi:45.00
+3:41:13 PM | info | NVDA: Eval - price:173.61, vwap:173.01, dev:0.346%, slope:0.0010, rsi:28.33
+3:41:13 PM | info | NVDA: Eval - price:173.54, vwap:173.01, dev:0.304%, slope:0.0000, rsi:55.54
+Bar 16000: Price $173.58 | VWAP $173.01 | Diff 0.56
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-25T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:173.41, vwap:173.49, dev:-0.049%, slope:-0.0032, rsi:32.57
+3:41:13 PM | info | NVDA: Eval - price:173.33, vwap:173.42, dev:-0.051%, slope:-0.0010, rsi:34.27
+3:41:13 PM | info | NVDA: Eval - price:173.46, vwap:173.42, dev:0.025%, slope:0.0001, rsi:56.67
+3:41:13 PM | info | NVDA: Eval - price:173.14, vwap:173.25, dev:-0.064%, slope:-0.0021, rsi:34.62
+3:41:13 PM | info | NVDA: Eval - price:174.41, vwap:174.00, dev:0.238%, slope:0.0034, rsi:65.98
+3:41:13 PM | info | NVDA: Eval - price:174.47, vwap:174.00, dev:0.268%, slope:0.0041, rsi:66.27
+3:41:13 PM | info | NVDA: Eval - price:174.11, vwap:174.02, dev:0.052%, slope:0.0006, rsi:39.14
+3:41:13 PM | info | NVDA: Eval - price:173.92, vwap:173.94, dev:-0.010%, slope:-0.0001, rsi:53.94
+3:41:13 PM | info | NVDA: Eval - price:173.48, vwap:173.86, dev:-0.220%, slope:-0.0000, rsi:35.09
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-28T08:00:00.000Z
+Bar 17000: Price $174.84 | VWAP $174.72 | Diff 0.12
+3:41:13 PM | info | NVDA: Eval - price:174.96, vwap:174.92, dev:0.023%, slope:0.0012, rsi:40.52
+3:41:13 PM | info | NVDA: Eval - price:176.89, vwap:175.51, dev:0.787%, slope:0.0001, rsi:72.85
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-29T08:00:00.000Z
+Bar 18000: Price $179.41 | VWAP $179.17 | Diff 0.24
+3:41:13 PM | info | NVDA: Eval - price:179.32, vwap:179.23, dev:0.051%, slope:0.0002, rsi:67.61
+3:41:13 PM | info | NVDA: Eval - price:178.81, vwap:179.16, dev:-0.196%, slope:-0.0116, rsi:27.12
+3:41:13 PM | info | NVDA: Eval - price:178.22, vwap:178.69, dev:-0.268%, slope:-0.0243, rsi:44.15
+3:41:13 PM | info | NVDA: Eval - price:176.57, vwap:177.62, dev:-0.589%, slope:-0.0055, rsi:67.93
+3:41:13 PM | info | NVDA: Eval - price:176.15, vwap:177.58, dev:-0.805%, slope:-0.0103, rsi:44.15
+3:41:13 PM | info | NVDA: Eval - price:176.00, vwap:177.14, dev:-0.642%, slope:-0.0002, rsi:49.68
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-30T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:176.51, vwap:176.43, dev:0.045%, slope:0.0012, rsi:69.81
+3:41:13 PM | info | NVDA: Eval - price:176.46, vwap:176.43, dev:0.016%, slope:0.0009, rsi:52.85
+Bar 19000: Price $175.72 | VWAP $176.24 | Diff -0.52
+3:41:13 PM | info | NVDA: Eval - price:176.50, vwap:176.43, dev:0.042%, slope:0.0010, rsi:49.51
+3:41:13 PM | info | NVDA: Eval - price:178.57, vwap:178.03, dev:0.308%, slope:0.0055, rsi:65.86
+3:41:13 PM | info | NVDA: Eval - price:178.94, vwap:178.32, dev:0.350%, slope:0.0049, rsi:34.27
+3:41:13 PM | info | NVDA: Eval - price:179.57, vwap:178.41, dev:0.651%, slope:0.0135, rsi:64.68
+3:41:13 PM | info | NVDA: Eval - price:179.48, vwap:178.42, dev:0.592%, slope:0.0105, rsi:45.79
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-07-31T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:181.96, vwap:182.55, dev:-0.325%, slope:-0.0256, rsi:21.00
+3:41:13 PM | info | NVDA: Eval - price:182.29, vwap:182.51, dev:-0.119%, slope:-0.0025, rsi:52.43
+Bar 20000: Price $182.69 | VWAP $182.54 | Diff 0.15
+3:41:13 PM | info | NVDA: Eval - price:181.70, vwap:182.02, dev:-0.178%, slope:-0.0057, rsi:36.06
+3:41:13 PM | info | NVDA: Eval - price:179.54, vwap:181.73, dev:-1.203%, slope:-0.0769, rsi:23.63
+3:41:13 PM | info | NVDA: Eval - price:179.28, vwap:181.34, dev:-1.137%, slope:-0.0513, rsi:48.95
+3:41:13 PM | info | NVDA: Eval - price:180.09, vwap:181.25, dev:-0.638%, slope:-0.0192, rsi:76.25
+3:41:13 PM | info | NVDA: Eval - price:180.00, vwap:181.12, dev:-0.620%, slope:-0.0144, rsi:24.20
+3:41:13 PM | info | NVDA: Eval - price:178.13, vwap:180.37, dev:-1.240%, slope:-0.0176, rsi:73.54
+3:41:13 PM | info | NVDA: Eval - price:175.94, vwap:179.73, dev:-2.107%, slope:-0.0018, rsi:40.20
+3:41:13 PM | info | NVDA: Eval - price:175.86, vwap:179.71, dev:-2.143%, slope:-0.0009, rsi:48.75
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-08-01T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:172.88, vwap:173.24, dev:-0.208%, slope:-0.0278, rsi:52.22
+3:41:13 PM | info | NVDA: Eval - price:173.61, vwap:173.26, dev:0.202%, slope:0.0072, rsi:69.38
+3:41:13 PM | info | NVDA: Eval - price:173.59, vwap:173.30, dev:0.167%, slope:0.0048, rsi:55.55
+Bar 21000: Price $174.85 | VWAP $173.54 | Diff 1.31
+3:41:13 PM | info | NVDA: Eval - price:173.67, vwap:174.11, dev:-0.251%, slope:-0.0065, rsi:25.16
+3:41:13 PM | info | NVDA: Eval - price:172.46, vwap:172.89, dev:-0.250%, slope:-0.0273, rsi:56.14
+3:41:13 PM | info | NVDA: Eval - price:174.96, vwap:173.73, dev:0.702%, slope:0.0113, rsi:61.79
+3:41:13 PM | info | NVDA: Eval - price:173.73, vwap:173.87, dev:-0.081%, slope:-0.0019, rsi:78.41
+3:41:13 PM | info | NVDA: Eval - price:173.41, vwap:173.85, dev:-0.252%, slope:-0.0004, rsi:46.35
+3:41:13 PM | info | NVDA: Eval - price:172.69, vwap:173.84, dev:-0.663%, slope:-0.0001, rsi:34.81
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-08-04T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:175.48, vwap:175.24, dev:0.137%, slope:0.0084, rsi:56.10
+3:41:13 PM | info | NVDA: Eval - price:175.46, vwap:175.28, dev:0.105%, slope:0.0059, rsi:38.15
+3:41:13 PM | info | NVDA: Eval - price:176.05, vwap:175.44, dev:0.349%, slope:0.0095, rsi:56.53
+3:41:13 PM | info | NVDA: Eval - price:175.45, vwap:175.46, dev:-0.007%, slope:0.0004, rsi:48.13
+Bar 22000: Price $175.52 | VWAP $175.46 | Diff 0.06
+3:41:13 PM | info | NVDA: Eval - price:175.48, vwap:175.46, dev:0.010%, slope:0.0007, rsi:43.70
+3:41:13 PM | info | NVDA: Eval - price:175.48, vwap:175.46, dev:0.012%, slope:-0.0006, rsi:62.48
+3:41:13 PM | info | NVDA: Eval - price:177.02, vwap:176.03, dev:0.560%, slope:0.0896, rsi:60.79
+3:41:13 PM | info | NVDA: Eval - price:178.90, vwap:177.24, dev:0.935%, slope:0.0134, rsi:52.35
+3:41:13 PM | info | NVDA: Eval - price:179.41, vwap:177.84, dev:0.882%, slope:0.0114, rsi:47.58
+3:41:13 PM | info | NVDA: Eval - price:180.67, vwap:178.36, dev:1.296%, slope:0.0012, rsi:49.89
+3:41:13 PM | info | NVDA: Eval - price:180.62, vwap:178.37, dev:1.263%, slope:0.0006, rsi:37.09
+3:41:13 PM | info | NVDA: Eval - price:180.74, vwap:178.37, dev:1.330%, slope:0.0004, rsi:71.56
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-08-05T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:180.25, vwap:180.51, dev:-0.142%, slope:-0.0286, rsi:30.72
+3:41:13 PM | info | NVDA: Eval - price:180.67, vwap:180.51, dev:0.089%, slope:0.0054, rsi:42.96
+3:41:13 PM | info | NVDA: Eval - price:181.29, vwap:180.92, dev:0.205%, slope:0.0061, rsi:65.90
+3:41:13 PM | info | NVDA: Eval - price:180.10, vwap:180.85, dev:-0.416%, slope:-0.0200, rsi:11.47
+Bar 23000: Price $179.92 | VWAP $180.68 | Diff -0.76
+3:41:13 PM | info | NVDA: Eval - price:178.05, vwap:179.28, dev:-0.687%, slope:-0.0576, rsi:40.21
+3:41:13 PM | info | NVDA: Eval - price:177.79, vwap:178.59, dev:-0.450%, slope:-0.0304, rsi:75.52
+3:41:13 PM | info | NVDA: Eval - price:177.33, vwap:178.21, dev:-0.494%, slope:-0.0004, rsi:58.56
+3:41:13 PM | info | NVDA: Eval - price:177.04, vwap:178.21, dev:-0.654%, slope:-0.0002, rsi:47.09
+3:41:13 PM | info | NVDA: Eval - price:177.15, vwap:178.20, dev:-0.591%, slope:-0.0003, rsi:68.05
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-08-06T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:177.06, vwap:176.94, dev:0.069%, slope:0.0022, rsi:63.52
+Bar 24000: Price $178.61 | VWAP $177.40 | Diff 1.21
+3:41:13 PM | info | NVDA: Eval - price:178.62, vwap:177.96, dev:0.368%, slope:0.0108, rsi:27.94
+3:41:13 PM | info | NVDA: Eval - price:178.30, vwap:177.99, dev:0.172%, slope:0.0014, rsi:55.86
+3:41:13 PM | info | NVDA: Eval - price:178.41, vwap:178.02, dev:0.221%, slope:0.0016, rsi:38.27
+3:41:13 PM | info | NVDA: Eval - price:179.27, vwap:178.47, dev:0.447%, slope:0.0002, rsi:49.55
+3:41:13 PM | info | NVDA: Eval - price:179.41, vwap:178.47, dev:0.524%, slope:0.0001, rsi:56.61
+3:41:13 PM | info | NVDA: Eval - price:180.40, vwap:178.50, dev:1.066%, slope:0.0004, rsi:37.91
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-08-07T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:181.02, vwap:181.02, dev:-0.003%, slope:0.0028, rsi:26.19
+Bar 25000: Price $182.90 | VWAP $182.63 | Diff 0.27
+3:41:13 PM | info | NVDA: Eval - price:181.69, vwap:182.58, dev:-0.486%, slope:-0.0228, rsi:34.91
+3:41:13 PM | info | NVDA: Eval - price:181.17, vwap:182.28, dev:-0.607%, slope:-0.0085, rsi:48.67
+3:41:13 PM | info | NVDA: Eval - price:179.88, vwap:181.89, dev:-1.101%, slope:-0.0142, rsi:53.78
+3:41:13 PM | info | NVDA: Eval - price:181.53, vwap:181.34, dev:0.106%, slope:0.0000, rsi:79.48
+3:41:13 PM | info | NVDA: Eval - price:181.49, vwap:181.34, dev:0.084%, slope:0.0000, rsi:56.26
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-08-08T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:181.75, vwap:181.81, dev:-0.033%, slope:0.0042, rsi:40.90
+3:41:13 PM | info | NVDA: Eval - price:181.96, vwap:181.96, dev:0.000%, slope:0.0001, rsi:50.52
+3:41:13 PM | info | NVDA: Eval - price:182.15, vwap:181.98, dev:0.094%, slope:0.0015, rsi:65.05
+3:41:13 PM | info | NVDA: Eval - price:181.03, vwap:181.52, dev:-0.271%, slope:-0.3438, rsi:14.45
+3:41:13 PM | info | NVDA: Eval - price:181.74, vwap:181.85, dev:-0.063%, slope:-0.0093, rsi:40.52
+3:41:13 PM | info | NVDA: Eval - price:183.18, vwap:182.11, dev:0.584%, slope:0.0259, rsi:67.18
+Bar 26000: Price $183.11 | VWAP $182.15 | Diff 0.96
+3:41:13 PM | info | NVDA: Eval - price:182.94, vwap:182.28, dev:0.364%, slope:0.0078, rsi:37.97
+3:41:13 PM | info | NVDA: Eval - price:182.71, vwap:182.32, dev:0.213%, slope:0.0035, rsi:42.64
+3:41:13 PM | info | NVDA: Eval - price:182.71, vwap:182.34, dev:0.201%, slope:0.0033, rsi:25.13
+3:41:13 PM | info | NVDA: Eval - price:182.70, vwap:182.40, dev:0.163%, slope:0.0002, rsi:58.32
+3:41:13 PM | info | NVDA: Eval - price:182.80, vwap:182.41, dev:0.215%, slope:0.0001, rsi:19.40
+3:41:13 PM | info | NVDA: Eval - price:182.87, vwap:182.41, dev:0.253%, slope:0.0000, rsi:41.64
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-08-11T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:183.35, vwap:182.07, dev:0.699%, slope:0.0863, rsi:63.40
+3:41:13 PM | info | NVDA: Eval - price:183.14, vwap:182.14, dev:0.551%, slope:0.0238, rsi:51.89
+Bar 27000: Price $183.65 | VWAP $182.50 | Diff 1.15
+3:41:13 PM | info | NVDA: Eval - price:182.06, vwap:182.55, dev:-0.267%, slope:-0.0002, rsi:34.92
+3:41:13 PM | info | NVDA: Eval - price:182.18, vwap:182.55, dev:-0.200%, slope:-0.0000, rsi:47.65
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-08-12T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:181.56, vwap:181.52, dev:0.020%, slope:0.0005, rsi:57.08
+3:41:13 PM | info | NVDA: Eval - price:181.83, vwap:181.54, dev:0.158%, slope:0.0251, rsi:76.57
+3:41:13 PM | info | NVDA: Eval - price:182.10, vwap:181.91, dev:0.105%, slope:0.0019, rsi:51.70
+3:41:13 PM | info | NVDA: Eval - price:181.86, vwap:181.91, dev:-0.028%, slope:-0.0012, rsi:51.43
+3:41:13 PM | info | NVDA: Eval - price:180.68, vwap:181.96, dev:-0.707%, slope:-0.1420, rsi:21.21
+3:41:13 PM | info | NVDA: Eval - price:182.41, vwap:181.46, dev:0.524%, slope:0.0103, rsi:38.63
+Bar 28000: Price $182.52 | VWAP $181.58 | Diff 0.94
+3:41:13 PM | info | NVDA: Eval - price:182.94, vwap:181.70, dev:0.680%, slope:0.0199, rsi:55.43
+3:41:13 PM | info | NVDA: Eval - price:182.92, vwap:182.07, dev:0.468%, slope:0.0014, rsi:37.47
+3:41:13 PM | info | NVDA: Eval - price:182.83, vwap:182.07, dev:0.417%, slope:0.0000, rsi:65.93
+3:41:13 PM | info | NVDA: Eval - price:182.78, vwap:182.07, dev:0.389%, slope:0.0000, rsi:41.26
+3:41:13 PM | info | NVDA: Eval - price:182.85, vwap:182.07, dev:0.427%, slope:0.0001, rsi:57.72
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-08-13T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:183.34, vwap:183.35, dev:-0.004%, slope:-0.0002, rsi:52.92
+3:41:13 PM | info | NVDA: Eval - price:182.98, vwap:183.11, dev:-0.072%, slope:-0.0034, rsi:46.46
+3:41:13 PM | info | NVDA: Eval - price:182.81, vwap:183.09, dev:-0.150%, slope:-0.0073, rsi:37.49
+3:41:13 PM | info | NVDA: Eval - price:183.00, vwap:182.69, dev:0.171%, slope:0.0041, rsi:72.48
+3:41:13 PM | info | NVDA: Eval - price:182.34, vwap:182.92, dev:-0.314%, slope:-0.0734, rsi:41.86
+3:41:13 PM | info | NVDA: Eval - price:180.34, vwap:182.14, dev:-0.986%, slope:-0.1106, rsi:32.34
+3:41:13 PM | info | NVDA: Eval - price:180.63, vwap:181.46, dev:-0.459%, slope:-0.0081, rsi:72.46
+Bar 29000: Price $180.99 | VWAP $181.42 | Diff -0.43
+3:41:13 PM | info | NVDA: Eval - price:181.76, vwap:181.41, dev:0.188%, slope:0.0014, rsi:77.42
+3:41:13 PM | info | NVDA: Eval - price:181.51, vwap:181.39, dev:0.063%, slope:-0.0001, rsi:81.36
+3:41:13 PM | info | NVDA: Eval - price:181.17, vwap:181.40, dev:-0.130%, slope:-0.0000, rsi:60.89
+3:41:13 PM | info | NVDA: Eval - price:181.28, vwap:181.40, dev:-0.069%, slope:-0.0000, rsi:66.65
+3:41:13 PM | info | NVDA: Eval - price:181.28, vwap:181.40, dev:-0.068%, slope:-0.0000, rsi:39.88
+3:41:13 PM | info | NVDA: Eval - price:181.25, vwap:181.40, dev:-0.085%, slope:-0.0000, rsi:50.50
+3:41:13 PM | info | NVDA: Eval - price:181.26, vwap:181.40, dev:-0.080%, slope:-0.0000, rsi:64.08
+3:41:13 PM | info | NVDA: Eval - price:181.33, vwap:181.40, dev:-0.041%, slope:-0.0000, rsi:68.10
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-08-14T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:181.26, vwap:181.54, dev:-0.155%, slope:-0.0277, rsi:17.69
+3:41:13 PM | info | NVDA: Eval - price:180.22, vwap:180.93, dev:-0.392%, slope:-0.0466, rsi:63.42
+3:41:13 PM | info | NVDA: Eval - price:182.02, vwap:181.69, dev:0.179%, slope:0.0026, rsi:42.62
+3:41:13 PM | info | NVDA: Eval - price:181.99, vwap:181.71, dev:0.152%, slope:0.0012, rsi:62.02
+Bar 30000: Price $181.86 | VWAP $181.71 | Diff 0.15
+3:41:13 PM | info | NVDA: Eval - price:181.96, vwap:181.72, dev:0.134%, slope:0.0012, rsi:55.69
+3:41:13 PM | info | NVDA: Eval - price:181.94, vwap:181.73, dev:0.115%, slope:0.0061, rsi:50.74
+3:41:13 PM | info | NVDA: Eval - price:182.16, vwap:181.74, dev:0.230%, slope:0.0057, rsi:62.33
+Bar 31000: Price $180.32 | VWAP $179.86 | Diff 0.46
+Bar 32000: Price $182.02 | VWAP $181.84 | Diff 0.18
+Bar 33000: Price $175.40 | VWAP $177.78 | Diff -2.38
+Bar 34000: Price $175.97 | VWAP $172.56 | Diff 3.41
+Bar 35000: Price $174.85 | VWAP $175.08 | Diff -0.23
+Bar 36000: Price $178.38 | VWAP $178.52 | Diff -0.14
+Bar 37000: Price $180.30 | VWAP $180.11 | Diff 0.19
+Bar 38000: Price $182.70 | VWAP $182.57 | Diff 0.13
+Bar 39000: Price $178.42 | VWAP $178.50 | Diff -0.08
+Bar 40000: Price $178.30 | VWAP $178.35 | Diff -0.05
+Bar 41000: Price $170.43 | VWAP $171.18 | Diff -0.75
+Bar 42000: Price $171.47 | VWAP $171.51 | Diff -0.04
+Bar 43000: Price $170.59 | VWAP $171.16 | Diff -0.57
+Bar 44000: Price $166.14 | VWAP $167.53 | Diff -1.39
+Bar 45000: Price $170.22 | VWAP $169.66 | Diff 0.56
+Bar 46000: Price $167.56 | VWAP $168.09 | Diff -0.53
+Bar 47000: Price $177.53 | VWAP $177.60 | Diff -0.06
+Bar 48000: Price $177.40 | VWAP $178.00 | Diff -0.60
+Bar 49000: Price $177.76 | VWAP $177.75 | Diff 0.02
+Bar 50000: Price $177.24 | VWAP $176.31 | Diff 0.93
+Bar 51000: Price $174.49 | VWAP $175.68 | Diff -1.20
+Bar 52000: Price $170.56 | VWAP $170.41 | Diff 0.15
+Bar 53000: Price $176.24 | VWAP $175.70 | Diff 0.54
+Bar 54000: Price $176.20 | VWAP $176.42 | Diff -0.22
+Bar 55000: Price $182.25 | VWAP $181.03 | Diff 1.22
+Bar 56000: Price $178.07 | VWAP $179.40 | Diff -1.33
+Bar 57000: Price $177.38 | VWAP $177.35 | Diff 0.03
+Bar 58000: Price $176.03 | VWAP $176.44 | Diff -0.41
+Bar 59000: Price $179.13 | VWAP $179.59 | Diff -0.46
+Bar 60000: Price $182.45 | VWAP $181.43 | Diff 1.02
+Bar 61000: Price $185.45 | VWAP $185.16 | Diff 0.29
+Bar 62000: Price $189.86 | VWAP $189.53 | Diff 0.33
+Bar 63000: Price $189.52 | VWAP $189.56 | Diff -0.04
+Bar 64000: Price $185.80 | VWAP $185.58 | Diff 0.22
+Bar 65000: Price $188.03 | VWAP $187.81 | Diff 0.22
+Bar 66000: Price $188.19 | VWAP $188.28 | Diff -0.09
+Bar 67000: Price $194.35 | VWAP $193.45 | Diff 0.91
+Bar 68000: Price $187.52 | VWAP $191.48 | Diff -3.96
+Bar 69000: Price $188.42 | VWAP $188.39 | Diff 0.03
+Bar 70000: Price $181.83 | VWAP $182.20 | Diff -0.37
+Bar 71000: Price $180.50 | VWAP $181.17 | Diff -0.67
+Bar 72000: Price $181.11 | VWAP $181.68 | Diff -0.57
+Bar 73000: Price $183.18 | VWAP $182.18 | Diff 1.00
+Bar 74000: Price $182.89 | VWAP $183.31 | Diff -0.42
+Bar 75000: Price $181.20 | VWAP $181.34 | Diff -0.14
+Bar 76000: Price $180.00 | VWAP $179.73 | Diff 0.27
+Bar 77000: Price $182.85 | VWAP $182.85 | Diff 0.00
+Bar 78000: Price $189.99 | VWAP $189.96 | Diff 0.03
+Bar 79000: Price $191.40 | VWAP $191.10 | Diff 0.30
+Bar 80000: Price $207.57 | VWAP $207.07 | Diff 0.50
+Bar 81000: Price $206.22 | VWAP $206.51 | Diff -0.29
+Bar 82000: Price $206.70 | VWAP $206.75 | Diff -0.05
+Bar 83000: Price $206.35 | VWAP $205.88 | Diff 0.47
+Bar 84000: Price $202.24 | VWAP $202.80 | Diff -0.57
+Bar 85000: Price $199.72 | VWAP $198.57 | Diff 1.15
+Bar 86000: Price $192.42 | VWAP $194.79 | Diff -2.37
+Bar 87000: Price $179.51 | VWAP $182.54 | Diff -3.03
+Bar 88000: Price $194.90 | VWAP $195.14 | Diff -0.24
+Bar 89000: Price $192.78 | VWAP $193.20 | Diff -0.41
+Bar 90000: Price $192.70 | VWAP $192.80 | Diff -0.10
+Bar 91000: Price $184.59 | VWAP $186.95 | Diff -2.35
+Bar 92000: Price $190.80 | VWAP $187.28 | Diff 3.52
+Bar 93000: Price $184.94 | VWAP $186.73 | Diff -1.79
+Bar 94000: Price $180.90 | VWAP $182.38 | Diff -1.48
+Bar 95000: Price $194.52 | VWAP $186.40 | Diff 8.12
+Bar 96000: Price $178.93 | VWAP $187.38 | Diff -8.45
+Bar 97000: Price $180.11 | VWAP $179.32 | Diff 0.79
+Bar 98000: Price $179.81 | VWAP $181.18 | Diff -1.37
+Bar 99000: Price $176.90 | VWAP $174.28 | Diff 2.62
+Bar 100000: Price $180.08 | VWAP $180.21 | Diff -0.13
+Bar 101000: Price $174.01 | VWAP $174.13 | Diff -0.12
+Bar 102000: Price $182.44 | VWAP $181.39 | Diff 1.05
+Bar 103000: Price $180.02 | VWAP $180.54 | Diff -0.52
+Bar 104000: Price $182.40 | VWAP $181.48 | Diff 0.92
+Bar 105000: Price $181.96 | VWAP $182.48 | Diff -0.52
+Bar 106000: Price $183.48 | VWAP $183.83 | Diff -0.35
+Bar 107000: Price $184.81 | VWAP $184.90 | Diff -0.09
+Bar 108000: Price $183.47 | VWAP $183.43 | Diff 0.04
+Bar 109000: Price $180.74 | VWAP $178.56 | Diff 2.18
+Bar 110000: Price $175.92 | VWAP $178.04 | Diff -2.12
+Bar 111000: Price $176.17 | VWAP $176.91 | Diff -0.74
+Bar 112000: Price $177.35 | VWAP $176.81 | Diff 0.54
+Bar 113000: Price $171.40 | VWAP $172.16 | Diff -0.75
+Bar 114000: Price $174.92 | VWAP $174.36 | Diff 0.56
+Bar 115000: Price $181.27 | VWAP $180.05 | Diff 1.22
+Bar 116000: Price $183.22 | VWAP $183.23 | Diff -0.01
+Bar 117000: Price $188.32 | VWAP $188.60 | Diff -0.28
+Bar 118000: Price $191.65 | VWAP $191.20 | Diff 0.45
+Bar 119000: Price $187.28 | VWAP $187.13 | Diff 0.15
+Bar 120000: Price $187.97 | VWAP $187.74 | Diff 0.23
+Bar 121000: Price $188.82 | VWAP $188.88 | Diff -0.05
+
+==========================================
+BACKTEST RESULTS: NVDA
+==========================================
+Total Trades: 0
+Win Rate:     0.00%
+Total P&L:    $0.00
+Max Drawdown: $0.00
+==========================================
+┌─────────┐
+│ (index) │
+├─────────┤
+└─────────┘
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-08-15T08:00:00.000Z
+3:41:13 PM | info | NVDA: Eval - price:181.99, vwap:181.78, dev:0.113%, slope:0.0052, rsi:67.82
+3:41:13 PM | info | NVDA: Eval - price:179.59, vwap:179.87, dev:-0.157%, slope:-0.0031, rsi:61.30
+3:41:13 PM | info | NVDA: Eval - price:179.93, vwap:179.71, dev:0.124%, slope:0.0011, rsi:61.01
+3:41:13 PM | info | NVDA: Eval - price:180.19, vwap:179.72, dev:0.261%, slope:0.0055, rsi:66.14
+3:41:13 PM | info | NVDA: Eval - price:180.32, vwap:179.86, dev:0.258%, slope:0.0001, rsi:52.01
+3:41:13 PM | info | NVDA: Eval - price:180.22, vwap:179.87, dev:0.193%, slope:0.0000, rsi:76.33
+3:41:13 PM | info | NVDA: Eval - price:180.21, vwap:179.87, dev:0.187%, slope:0.0000, rsi:56.99
+3:41:13 PM | info | NVDA: Eval - price:180.30, vwap:179.87, dev:0.237%, slope:0.0000, rsi:64.12
+3:41:13 PM | info | NVDA: Eval - price:180.27, vwap:179.87, dev:0.220%, slope:0.0000, rsi:45.95
+3:41:13 PM | info | NVDA: Eval - price:180.07, vwap:179.87, dev:0.111%, slope:0.0000, rsi:19.87
+3:41:13 PM | info | Doing Daily Risk Reset at 2025-08-18T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:179.65, vwap:179.65, dev:0.000%, slope:0.0016, rsi:55.34
+3:41:15 PM | info | NVDA: Eval - price:179.90, vwap:179.80, dev:0.056%, slope:0.0045, rsi:54.29
+3:41:15 PM | info | NVDA: Eval - price:179.98, vwap:179.80, dev:0.098%, slope:0.0017, rsi:63.75
+3:41:15 PM | info | NVDA: Eval - price:180.37, vwap:179.89, dev:0.266%, slope:0.0067, rsi:63.83
+3:41:15 PM | info | NVDA: Eval - price:181.87, vwap:182.07, dev:-0.106%, slope:0.0001, rsi:18.18
+3:41:15 PM | info | NVDA: Eval - price:181.59, vwap:181.85, dev:-0.141%, slope:-0.0032, rsi:66.61
+3:41:15 PM | info | NVDA: Eval - price:181.59, vwap:181.83, dev:-0.133%, slope:-0.0029, rsi:60.72
+3:41:15 PM | info | NVDA: Eval - price:181.57, vwap:181.82, dev:-0.134%, slope:-0.0010, rsi:33.13
+3:41:15 PM | info | NVDA: Eval - price:181.16, vwap:181.81, dev:-0.358%, slope:-0.0063, rsi:19.64
+3:41:15 PM | info | NVDA: Eval - price:181.95, vwap:181.84, dev:0.063%, slope:0.0143, rsi:25.88
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-08-19T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:182.42, vwap:182.45, dev:-0.019%, slope:-0.0015, rsi:49.38
+3:41:15 PM | info | NVDA: Eval - price:181.33, vwap:181.83, dev:-0.276%, slope:-0.1198, rsi:33.63
+3:41:15 PM | info | NVDA: Eval - price:178.56, vwap:179.74, dev:-0.654%, slope:-0.0208, rsi:62.21
+3:41:15 PM | info | NVDA: Eval - price:178.36, vwap:179.65, dev:-0.716%, slope:-0.0194, rsi:56.53
+3:41:15 PM | info | NVDA: Eval - price:177.29, vwap:179.31, dev:-1.123%, slope:-0.0427, rsi:50.36
+3:41:15 PM | info | NVDA: Eval - price:177.04, vwap:178.58, dev:-0.865%, slope:-0.0143, rsi:64.01
+3:41:15 PM | info | NVDA: Eval - price:176.66, vwap:178.53, dev:-1.048%, slope:-0.0150, rsi:49.61
+3:41:15 PM | info | NVDA: Eval - price:175.94, vwap:177.80, dev:-1.047%, slope:-0.0006, rsi:71.98
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-08-20T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:175.52, vwap:175.38, dev:0.080%, slope:0.0065, rsi:50.51
+3:41:15 PM | info | NVDA: Eval - price:176.10, vwap:175.67, dev:0.244%, slope:0.0074, rsi:61.80
+3:41:15 PM | info | NVDA: Eval - price:175.85, vwap:175.69, dev:0.090%, slope:0.0021, rsi:41.42
+3:41:15 PM | info | NVDA: Eval - price:170.87, vwap:171.78, dev:-0.533%, slope:-0.0394, rsi:63.31
+3:41:15 PM | info | NVDA: Eval - price:172.32, vwap:171.31, dev:0.591%, slope:0.0196, rsi:88.67
+3:41:15 PM | info | NVDA: Eval - price:172.41, vwap:171.46, dev:0.549%, slope:0.0131, rsi:34.82
+3:41:15 PM | info | NVDA: Eval - price:172.99, vwap:171.96, dev:0.601%, slope:0.0051, rsi:54.65
+3:41:15 PM | info | NVDA: Eval - price:173.81, vwap:172.04, dev:1.028%, slope:0.0085, rsi:71.02
+3:41:15 PM | info | NVDA: Eval - price:175.82, vwap:172.55, dev:1.895%, slope:0.0007, rsi:53.48
+3:41:15 PM | info | NVDA: Eval - price:175.96, vwap:172.56, dev:1.969%, slope:0.0002, rsi:57.69
+3:41:15 PM | info | NVDA: Eval - price:175.97, vwap:172.56, dev:1.975%, slope:0.0002, rsi:55.96
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-08-21T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:176.12, vwap:175.90, dev:0.128%, slope:0.1185, rsi:65.12
+3:41:15 PM | info | NVDA: Eval - price:176.20, vwap:176.15, dev:0.029%, slope:0.0049, rsi:26.49
+3:41:15 PM | info | NVDA: Eval - price:176.70, vwap:176.23, dev:0.265%, slope:0.0089, rsi:62.92
+3:41:15 PM | info | NVDA: Eval - price:175.18, vwap:176.10, dev:-0.521%, slope:-0.0355, rsi:28.00
+3:41:15 PM | info | NVDA: Eval - price:176.03, vwap:175.57, dev:0.267%, slope:0.0110, rsi:63.27
+3:41:15 PM | info | NVDA: Eval - price:175.80, vwap:175.61, dev:0.108%, slope:0.0034, rsi:58.25
+3:41:15 PM | info | NVDA: Eval - price:174.15, vwap:175.31, dev:-0.666%, slope:-0.0107, rsi:33.91
+3:41:15 PM | info | NVDA: Eval - price:174.75, vwap:175.16, dev:-0.239%, slope:-0.0030, rsi:52.44
+3:41:15 PM | info | NVDA: Eval - price:174.65, vwap:175.08, dev:-0.248%, slope:-0.0001, rsi:15.97
+3:41:15 PM | info | NVDA: Eval - price:174.79, vwap:175.08, dev:-0.168%, slope:-0.0000, rsi:72.78
+3:41:15 PM | info | NVDA: Eval - price:174.82, vwap:175.08, dev:-0.150%, slope:-0.0000, rsi:17.23
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-08-22T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:173.09, vwap:172.80, dev:0.165%, slope:0.0089, rsi:30.86
+3:41:15 PM | info | NVDA: Eval - price:173.14, vwap:172.79, dev:0.205%, slope:0.0037, rsi:76.36
+3:41:15 PM | info | NVDA: Eval - price:172.83, vwap:172.88, dev:-0.028%, slope:0.0014, rsi:46.92
+3:41:15 PM | info | NVDA: Eval - price:177.70, vwap:176.18, dev:0.861%, slope:0.0107, rsi:77.83
+3:41:15 PM | info | NVDA: Eval - price:177.83, vwap:176.20, dev:0.923%, slope:0.0101, rsi:70.72
+3:41:15 PM | info | NVDA: Eval - price:178.25, vwap:176.32, dev:1.092%, slope:0.0094, rsi:51.71
+3:41:15 PM | info | NVDA: Eval - price:178.02, vwap:176.50, dev:0.859%, slope:0.0078, rsi:68.80
+3:41:15 PM | info | NVDA: Eval - price:178.05, vwap:176.78, dev:0.720%, slope:0.0001, rsi:68.09
+3:41:15 PM | info | NVDA: Eval - price:178.34, vwap:176.78, dev:0.882%, slope:0.0002, rsi:72.14
+3:41:15 PM | info | NVDA: Eval - price:178.37, vwap:176.78, dev:0.898%, slope:0.0002, rsi:28.53
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-08-25T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:178.26, vwap:178.48, dev:-0.122%, slope:-0.0098, rsi:48.50
+3:41:15 PM | info | NVDA: Eval - price:179.07, vwap:177.72, dev:0.765%, slope:0.1394, rsi:71.69
+3:41:15 PM | info | NVDA: Eval - price:181.19, vwap:179.89, dev:0.721%, slope:0.0072, rsi:31.47
+3:41:15 PM | info | NVDA: Eval - price:181.29, vwap:179.90, dev:0.775%, slope:0.0077, rsi:51.13
+3:41:15 PM | info | NVDA: Eval - price:179.94, vwap:180.02, dev:-0.043%, slope:-0.0000, rsi:35.29
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-08-26T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:181.21, vwap:180.77, dev:0.246%, slope:0.0036, rsi:49.11
+3:41:15 PM | info | NVDA: Eval - price:181.55, vwap:180.77, dev:0.429%, slope:0.0065, rsi:76.57
+3:41:15 PM | info | NVDA: Eval - price:181.85, vwap:180.82, dev:0.568%, slope:0.0073, rsi:70.33
+3:41:15 PM | info | NVDA: Eval - price:182.05, vwap:180.87, dev:0.651%, slope:0.0164, rsi:56.74
+3:41:15 PM | info | NVDA: Eval - price:181.80, vwap:181.25, dev:0.301%, slope:0.0039, rsi:45.28
+3:41:15 PM | info | NVDA: Eval - price:182.29, vwap:181.27, dev:0.564%, slope:0.0001, rsi:36.91
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-08-27T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:182.72, vwap:182.57, dev:0.082%, slope:0.0029, rsi:52.04
+3:41:15 PM | info | NVDA: Eval - price:182.90, vwap:182.85, dev:0.026%, slope:0.0553, rsi:30.52
+3:41:15 PM | info | NVDA: Eval - price:182.61, vwap:182.85, dev:-0.133%, slope:-0.0065, rsi:9.80
+3:41:15 PM | info | NVDA: Eval - price:182.33, vwap:182.79, dev:-0.254%, slope:-0.0226, rsi:22.15
+3:41:15 PM | info | NVDA: Eval - price:181.43, vwap:180.77, dev:0.362%, slope:0.0167, rsi:67.91
+3:41:15 PM | info | NVDA: Eval - price:181.72, vwap:181.26, dev:0.257%, slope:0.0029, rsi:45.62
+3:41:15 PM | info | NVDA: Eval - price:181.94, vwap:181.29, dev:0.357%, slope:0.0035, rsi:70.77
+3:41:15 PM | info | NVDA: Eval - price:181.41, vwap:181.41, dev:-0.003%, slope:0.0003, rsi:38.60
+3:41:15 PM | info | NVDA: Eval - price:175.89, vwap:180.60, dev:-2.609%, slope:-0.0040, rsi:37.82
+3:41:15 PM | info | NVDA: Eval - price:176.18, vwap:180.58, dev:-2.438%, slope:-0.0033, rsi:64.55
+3:41:15 PM | info | NVDA: Eval - price:176.01, vwap:180.56, dev:-2.521%, slope:-0.0015, rsi:52.52
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-08-28T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:178.92, vwap:178.55, dev:0.207%, slope:0.0592, rsi:46.46
+3:41:15 PM | info | NVDA: Eval - price:179.25, vwap:179.67, dev:-0.235%, slope:-0.0026, rsi:27.31
+3:41:15 PM | info | NVDA: Eval - price:179.88, vwap:179.85, dev:0.016%, slope:0.0000, rsi:63.89
+3:41:15 PM | info | NVDA: Eval - price:179.70, vwap:179.85, dev:-0.084%, slope:-0.0000, rsi:14.61
+3:41:15 PM | info | NVDA: Eval - price:179.70, vwap:179.85, dev:-0.084%, slope:-0.0000, rsi:14.61
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-08-29T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:177.87, vwap:178.53, dev:-0.369%, slope:-0.0385, rsi:25.79
+3:41:15 PM | info | NVDA: Eval - price:178.40, vwap:178.32, dev:0.044%, slope:-0.0204, rsi:73.06
+3:41:15 PM | info | NVDA: Eval - price:174.81, vwap:175.32, dev:-0.289%, slope:-0.0112, rsi:45.32
+3:41:15 PM | info | NVDA: Eval - price:173.87, vwap:174.97, dev:-0.627%, slope:-0.0126, rsi:34.57
+3:41:15 PM | info | NVDA: Eval - price:174.35, vwap:174.93, dev:-0.329%, slope:-0.0055, rsi:70.31
+3:41:15 PM | info | NVDA: Eval - price:173.66, vwap:174.80, dev:-0.654%, slope:-0.0117, rsi:59.36
+3:41:15 PM | info | NVDA: Eval - price:173.98, vwap:174.50, dev:-0.298%, slope:-0.0003, rsi:47.90
+3:41:15 PM | info | NVDA: Eval - price:173.78, vwap:174.50, dev:-0.411%, slope:-0.0001, rsi:27.12
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-02T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:171.81, vwap:172.04, dev:-0.135%, slope:-0.0045, rsi:38.24
+3:41:15 PM | info | NVDA: Eval - price:171.46, vwap:171.94, dev:-0.276%, slope:-0.0074, rsi:38.82
+3:41:15 PM | info | NVDA: Eval - price:170.25, vwap:171.52, dev:-0.740%, slope:-0.0316, rsi:35.63
+3:41:15 PM | info | NVDA: Eval - price:169.45, vwap:170.48, dev:-0.607%, slope:-0.0281, rsi:41.88
+3:41:15 PM | info | NVDA: Eval - price:169.55, vwap:170.28, dev:-0.431%, slope:-0.0104, rsi:44.72
+3:41:15 PM | info | NVDA: Eval - price:168.37, vwap:170.00, dev:-0.960%, slope:-0.0554, rsi:32.50
+3:41:15 PM | info | NVDA: Eval - price:168.02, vwap:169.91, dev:-1.113%, slope:-0.0774, rsi:25.93
+3:41:15 PM | info | NVDA: Eval - price:170.59, vwap:169.43, dev:0.682%, slope:0.0087, rsi:73.75
+3:41:15 PM | info | NVDA: Eval - price:170.20, vwap:169.62, dev:0.339%, slope:0.0000, rsi:45.64
+3:41:15 PM | info | NVDA: Eval - price:170.24, vwap:169.62, dev:0.363%, slope:0.0000, rsi:62.70
+3:41:15 PM | info | NVDA: Eval - price:169.68, vwap:169.63, dev:0.032%, slope:0.0000, rsi:36.60
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-03T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:171.20, vwap:170.86, dev:0.198%, slope:0.0121, rsi:66.91
+3:41:15 PM | info | NVDA: Eval - price:171.78, vwap:171.08, dev:0.408%, slope:0.0410, rsi:82.67
+3:41:15 PM | info | NVDA: Eval - price:171.56, vwap:171.32, dev:0.142%, slope:0.0107, rsi:21.89
+3:41:15 PM | info | NVDA: Eval - price:171.67, vwap:171.33, dev:0.200%, slope:0.0161, rsi:49.86
+3:41:15 PM | info | NVDA: Eval - price:171.67, vwap:171.51, dev:0.091%, slope:0.0027, rsi:60.03
+3:41:15 PM | info | NVDA: Eval - price:171.36, vwap:171.48, dev:-0.067%, slope:-0.0020, rsi:55.07
+3:41:15 PM | info | NVDA: Eval - price:169.96, vwap:170.62, dev:-0.387%, slope:-0.0735, rsi:40.20
+3:41:15 PM | info | NVDA: Eval - price:171.41, vwap:170.83, dev:0.334%, slope:0.0416, rsi:49.43
+3:41:15 PM | info | NVDA: Eval - price:172.20, vwap:170.98, dev:0.708%, slope:0.0531, rsi:80.17
+3:41:15 PM | info | NVDA: Eval - price:170.75, vwap:171.13, dev:-0.221%, slope:-0.0041, rsi:47.36
+3:41:15 PM | info | NVDA: Eval - price:171.36, vwap:171.12, dev:0.138%, slope:0.0017, rsi:78.65
+3:41:15 PM | info | NVDA: Eval - price:171.25, vwap:171.12, dev:0.076%, slope:0.0007, rsi:59.35
+3:41:15 PM | info | NVDA: Eval - price:169.35, vwap:170.82, dev:-0.861%, slope:-0.0088, rsi:56.47
+3:41:15 PM | info | NVDA: Eval - price:170.52, vwap:170.65, dev:-0.077%, slope:-0.0001, rsi:44.29
+3:41:15 PM | info | NVDA: Eval - price:170.46, vwap:170.65, dev:-0.112%, slope:-0.0000, rsi:51.46
+3:41:15 PM | info | NVDA: Eval - price:170.42, vwap:170.65, dev:-0.136%, slope:-0.0000, rsi:38.96
+3:41:15 PM | info | NVDA: Eval - price:170.30, vwap:170.65, dev:-0.203%, slope:-0.0000, rsi:32.73
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-04T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:171.77, vwap:171.61, dev:0.092%, slope:0.0027, rsi:54.96
+3:41:15 PM | info | NVDA: Eval - price:171.59, vwap:171.62, dev:-0.017%, slope:-0.0002, rsi:40.25
+3:41:15 PM | info | NVDA: Eval - price:170.77, vwap:171.48, dev:-0.413%, slope:-0.0798, rsi:31.01
+3:41:15 PM | info | NVDA: Eval - price:170.60, vwap:171.36, dev:-0.443%, slope:-0.0140, rsi:53.68
+3:41:15 PM | info | NVDA: Eval - price:170.60, vwap:171.18, dev:-0.341%, slope:-0.0057, rsi:32.23
+3:41:15 PM | info | NVDA: Eval - price:170.10, vwap:170.69, dev:-0.348%, slope:-0.0800, rsi:49.27
+3:41:15 PM | info | NVDA: Eval - price:170.98, vwap:170.59, dev:0.226%, slope:0.0049, rsi:67.78
+3:41:15 PM | info | NVDA: Eval - price:170.59, vwap:170.62, dev:-0.014%, slope:0.0001, rsi:34.10
+3:41:15 PM | info | NVDA: Eval - price:170.58, vwap:170.62, dev:-0.021%, slope:-0.0006, rsi:59.08
+3:41:15 PM | info | NVDA: Eval - price:170.73, vwap:170.62, dev:0.067%, slope:0.0009, rsi:71.51
+3:41:15 PM | info | NVDA: Eval - price:171.18, vwap:170.86, dev:0.184%, slope:0.0001, rsi:44.03
+3:41:15 PM | info | NVDA: Eval - price:171.35, vwap:170.87, dev:0.283%, slope:0.0001, rsi:42.18
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-05T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:170.31, vwap:170.87, dev:-0.325%, slope:-0.0120, rsi:43.10
+3:41:15 PM | info | NVDA: Eval - price:170.27, vwap:170.60, dev:-0.193%, slope:-0.0053, rsi:68.41
+3:41:15 PM | info | NVDA: Eval - price:169.73, vwap:169.52, dev:0.121%, slope:0.0028, rsi:87.32
+3:41:15 PM | info | NVDA: Eval - price:167.72, vwap:167.94, dev:-0.130%, slope:0.0574, rsi:44.85
+3:41:15 PM | info | NVDA: Eval - price:166.61, vwap:166.52, dev:0.053%, slope:0.0000, rsi:30.32
+3:41:15 PM | info | NVDA: Eval - price:166.44, vwap:166.52, dev:-0.049%, slope:-0.0000, rsi:20.73
+3:41:15 PM | info | NVDA: Eval - price:166.32, vwap:166.52, dev:-0.121%, slope:-0.0000, rsi:42.68
+3:41:15 PM | info | NVDA: Eval - price:166.25, vwap:166.52, dev:-0.163%, slope:-0.0000, rsi:22.63
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-08T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:167.52, vwap:167.33, dev:0.113%, slope:0.0095, rsi:60.94
+3:41:15 PM | info | NVDA: Eval - price:167.40, vwap:167.34, dev:0.039%, slope:0.0073, rsi:45.11
+3:41:15 PM | info | NVDA: Eval - price:167.39, vwap:167.34, dev:0.032%, slope:0.0016, rsi:45.14
+3:41:15 PM | info | NVDA: Eval - price:167.73, vwap:167.44, dev:0.173%, slope:0.0035, rsi:63.97
+3:41:15 PM | info | NVDA: Eval - price:167.86, vwap:167.70, dev:0.097%, slope:0.0072, rsi:39.18
+3:41:15 PM | info | NVDA: Eval - price:167.55, vwap:167.63, dev:-0.049%, slope:-0.0014, rsi:73.61
+3:41:15 PM | info | NVDA: Eval - price:169.67, vwap:169.72, dev:-0.030%, slope:-0.0007, rsi:37.93
+3:41:15 PM | info | NVDA: Eval - price:169.93, vwap:169.73, dev:0.113%, slope:0.0013, rsi:55.18
+3:41:15 PM | info | NVDA: Eval - price:169.97, vwap:169.74, dev:0.140%, slope:0.0016, rsi:56.18
+3:41:15 PM | info | NVDA: Eval - price:169.99, vwap:169.75, dev:0.143%, slope:0.0018, rsi:69.52
+3:41:15 PM | info | NVDA: Eval - price:169.38, vwap:169.73, dev:-0.209%, slope:-0.0044, rsi:56.72
+3:41:15 PM | info | NVDA: Eval - price:168.18, vwap:169.45, dev:-0.750%, slope:-0.0003, rsi:43.34
+3:41:15 PM | info | NVDA: Eval - price:168.10, vwap:169.44, dev:-0.793%, slope:-0.0003, rsi:46.09
+3:41:15 PM | info | NVDA: Eval - price:168.27, vwap:169.43, dev:-0.684%, slope:-0.0001, rsi:57.42
+3:41:15 PM | info | NVDA: Eval - price:168.35, vwap:169.43, dev:-0.636%, slope:-0.0001, rsi:52.71
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-09T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:169.72, vwap:169.34, dev:0.224%, slope:0.0847, rsi:67.13
+3:41:15 PM | info | NVDA: Eval - price:168.62, vwap:169.43, dev:-0.475%, slope:-0.0264, rsi:17.66
+3:41:15 PM | info | NVDA: Eval - price:168.99, vwap:169.35, dev:-0.212%, slope:-0.0026, rsi:52.20
+3:41:15 PM | info | NVDA: Eval - price:168.87, vwap:168.86, dev:0.004%, slope:-0.2058, rsi:47.41
+3:41:15 PM | info | NVDA: Eval - price:168.58, vwap:168.63, dev:-0.030%, slope:-0.0058, rsi:65.40
+3:41:15 PM | info | NVDA: Eval - price:167.71, vwap:168.13, dev:-0.251%, slope:-0.0067, rsi:60.49
+3:41:15 PM | info | NVDA: Eval - price:167.51, vwap:168.10, dev:-0.348%, slope:-0.0088, rsi:33.73
+3:41:15 PM | info | NVDA: Eval - price:168.07, vwap:168.15, dev:-0.051%, slope:-0.0017, rsi:61.28
+3:41:15 PM | info | NVDA: Eval - price:168.10, vwap:168.16, dev:-0.030%, slope:0.0000, rsi:37.30
+3:41:15 PM | info | NVDA: Eval - price:173.52, vwap:168.84, dev:2.769%, slope:0.0107, rsi:73.18
+3:41:15 PM | info | NVDA: Eval - price:173.90, vwap:169.04, dev:2.877%, slope:0.0012, rsi:39.80
+3:41:15 PM | info | NVDA: Eval - price:173.61, vwap:169.05, dev:2.695%, slope:0.0012, rsi:43.06
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-10T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:173.96, vwap:173.82, dev:0.083%, slope:0.0423, rsi:52.50
+3:41:15 PM | info | NVDA: Eval - price:174.20, vwap:173.90, dev:0.173%, slope:0.0161, rsi:69.53
+3:41:15 PM | info | NVDA: Eval - price:174.01, vwap:173.95, dev:0.034%, slope:0.0016, rsi:32.91
+3:41:15 PM | info | NVDA: Eval - price:174.53, vwap:174.07, dev:0.266%, slope:0.0110, rsi:52.49
+3:41:15 PM | info | NVDA: Eval - price:174.78, vwap:174.11, dev:0.387%, slope:0.0307, rsi:83.24
+3:41:15 PM | info | NVDA: Eval - price:175.60, vwap:174.50, dev:0.629%, slope:0.0294, rsi:83.37
+3:41:15 PM | info | NVDA: Eval - price:175.60, vwap:174.57, dev:0.591%, slope:0.0242, rsi:63.03
+3:41:15 PM | info | NVDA: Eval - price:175.51, vwap:174.60, dev:0.521%, slope:0.0142, rsi:45.31
+3:41:15 PM | info | NVDA: Eval - price:177.73, vwap:177.60, dev:0.075%, slope:0.0032, rsi:43.85
+3:41:15 PM | info | NVDA: Eval - price:177.38, vwap:177.60, dev:-0.128%, slope:-0.0007, rsi:22.25
+3:41:15 PM | info | NVDA: Eval - price:177.47, vwap:177.63, dev:-0.088%, slope:-0.0004, rsi:27.28
+3:41:15 PM | info | NVDA: Eval - price:176.22, vwap:177.49, dev:-0.718%, slope:-0.0124, rsi:47.59
+3:41:15 PM | info | NVDA: Eval - price:177.25, vwap:177.44, dev:-0.108%, slope:-0.0000, rsi:34.15
+3:41:15 PM | info | NVDA: Eval - price:177.17, vwap:177.44, dev:-0.151%, slope:-0.0000, rsi:32.03
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-11T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:177.92, vwap:177.97, dev:-0.030%, slope:-0.0048, rsi:46.25
+3:41:15 PM | info | NVDA: Eval - price:177.74, vwap:177.93, dev:-0.108%, slope:-0.0026, rsi:31.31
+3:41:15 PM | info | NVDA: Eval - price:178.12, vwap:178.01, dev:0.061%, slope:0.0041, rsi:48.98
+3:41:15 PM | info | NVDA: Eval - price:178.30, vwap:178.21, dev:0.051%, slope:0.0019, rsi:40.04
+3:41:15 PM | info | NVDA: Eval - price:178.91, vwap:178.40, dev:0.287%, slope:0.0131, rsi:52.63
+3:41:15 PM | info | NVDA: Eval - price:177.63, vwap:177.87, dev:-0.133%, slope:-0.0024, rsi:77.18
+3:41:15 PM | info | NVDA: Eval - price:177.28, vwap:177.82, dev:-0.303%, slope:-0.0034, rsi:61.15
+3:41:15 PM | info | NVDA: Eval - price:177.03, vwap:177.81, dev:-0.438%, slope:-0.0046, rsi:33.41
+3:41:15 PM | info | NVDA: Eval - price:177.05, vwap:177.71, dev:-0.373%, slope:-0.0000, rsi:38.97
+3:41:15 PM | info | NVDA: Eval - price:177.09, vwap:177.71, dev:-0.350%, slope:-0.0005, rsi:40.42
+3:41:15 PM | info | NVDA: Eval - price:177.18, vwap:177.71, dev:-0.299%, slope:-0.0000, rsi:51.01
+3:41:15 PM | info | NVDA: Eval - price:177.24, vwap:177.71, dev:-0.265%, slope:-0.0000, rsi:51.49
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-12T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:177.58, vwap:177.45, dev:0.072%, slope:0.0060, rsi:53.10
+3:41:15 PM | info | NVDA: Eval - price:177.67, vwap:177.50, dev:0.096%, slope:0.0076, rsi:41.13
+3:41:15 PM | info | NVDA: Eval - price:177.85, vwap:177.62, dev:0.132%, slope:0.0071, rsi:54.34
+3:41:15 PM | info | NVDA: Eval - price:177.46, vwap:177.62, dev:-0.093%, slope:-0.0038, rsi:29.74
+3:41:15 PM | info | NVDA: Eval - price:177.22, vwap:177.57, dev:-0.195%, slope:-0.0169, rsi:39.21
+3:41:15 PM | info | NVDA: Eval - price:177.62, vwap:177.58, dev:0.022%, slope:0.0008, rsi:56.25
+3:41:15 PM | info | NVDA: Eval - price:177.65, vwap:177.46, dev:0.103%, slope:0.0105, rsi:49.28
+3:41:15 PM | info | NVDA: Eval - price:177.84, vwap:177.48, dev:0.204%, slope:0.0155, rsi:62.90
+3:41:15 PM | info | NVDA: Eval - price:178.09, vwap:177.53, dev:0.318%, slope:0.0245, rsi:73.19
+3:41:15 PM | info | NVDA: Eval - price:177.65, vwap:177.75, dev:-0.058%, slope:-0.0007, rsi:47.61
+3:41:15 PM | info | NVDA: Eval - price:177.70, vwap:177.74, dev:-0.019%, slope:-0.0004, rsi:70.00
+3:41:15 PM | info | NVDA: Eval - price:177.77, vwap:177.74, dev:0.017%, slope:0.0000, rsi:55.63
+3:41:15 PM | info | NVDA: Eval - price:177.80, vwap:177.74, dev:0.033%, slope:0.0000, rsi:72.33
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-15T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:173.43, vwap:174.02, dev:-0.337%, slope:-0.0089, rsi:55.20
+3:41:15 PM | info | NVDA: Eval - price:173.27, vwap:173.98, dev:-0.408%, slope:-0.0097, rsi:33.12
+3:41:15 PM | info | NVDA: Eval - price:174.81, vwap:174.42, dev:0.223%, slope:0.0069, rsi:43.72
+3:41:15 PM | info | NVDA: Eval - price:175.22, vwap:174.52, dev:0.403%, slope:0.0070, rsi:34.87
+3:41:15 PM | info | NVDA: Eval - price:175.17, vwap:175.30, dev:-0.073%, slope:-0.0021, rsi:52.48
+3:41:15 PM | info | NVDA: Eval - price:175.81, vwap:175.31, dev:0.285%, slope:0.0106, rsi:80.41
+3:41:15 PM | info | NVDA: Eval - price:177.32, vwap:176.13, dev:0.678%, slope:0.0058, rsi:52.50
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-16T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:177.51, vwap:177.55, dev:-0.024%, slope:-0.0008, rsi:50.46
+3:41:15 PM | info | NVDA: Eval - price:177.28, vwap:177.37, dev:-0.051%, slope:-0.0010, rsi:60.41
+3:41:15 PM | info | NVDA: Eval - price:177.31, vwap:177.37, dev:-0.033%, slope:-0.0024, rsi:44.62
+3:41:15 PM | info | NVDA: Eval - price:177.41, vwap:177.38, dev:0.016%, slope:0.0168, rsi:67.71
+3:41:15 PM | info | NVDA: Eval - price:177.31, vwap:177.38, dev:-0.037%, slope:-0.0011, rsi:47.62
+3:41:15 PM | info | NVDA: Eval - price:175.14, vwap:176.21, dev:-0.607%, slope:-0.0173, rsi:47.97
+3:41:15 PM | info | NVDA: Eval - price:175.12, vwap:176.13, dev:-0.574%, slope:-0.0090, rsi:43.23
+3:41:15 PM | info | NVDA: Eval - price:175.00, vwap:175.94, dev:-0.530%, slope:-0.0069, rsi:52.91
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-17T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:175.15, vwap:175.39, dev:-0.136%, slope:-0.0178, rsi:27.93
+3:41:15 PM | info | NVDA: Eval - price:173.25, vwap:173.47, dev:-0.125%, slope:-0.0124, rsi:46.97
+3:41:15 PM | info | NVDA: Eval - price:172.75, vwap:172.96, dev:-0.122%, slope:-0.0011, rsi:47.90
+3:41:15 PM | info | NVDA: Eval - price:172.74, vwap:172.91, dev:-0.099%, slope:-0.0031, rsi:46.92
+3:41:15 PM | info | NVDA: Eval - price:172.70, vwap:172.95, dev:-0.146%, slope:-0.0051, rsi:40.32
+3:41:15 PM | info | NVDA: Eval - price:171.29, vwap:171.63, dev:-0.200%, slope:-0.0489, rsi:59.49
+3:41:15 PM | info | NVDA: Eval - price:170.16, vwap:170.97, dev:-0.471%, slope:-0.0138, rsi:62.86
+3:41:15 PM | info | NVDA: Eval - price:169.35, vwap:170.77, dev:-0.833%, slope:-0.0201, rsi:31.24
+3:41:15 PM | info | NVDA: Eval - price:169.58, vwap:170.73, dev:-0.674%, slope:-0.0163, rsi:51.84
+3:41:15 PM | info | NVDA: Eval - price:171.01, vwap:170.59, dev:0.244%, slope:0.0054, rsi:62.86
+3:41:15 PM | info | NVDA: Eval - price:169.63, vwap:170.53, dev:-0.530%, slope:-0.0468, rsi:44.03
+3:41:15 PM | info | NVDA: Eval - price:170.57, vwap:170.41, dev:0.095%, slope:0.0009, rsi:42.90
+3:41:15 PM | info | NVDA: Eval - price:170.77, vwap:170.41, dev:0.213%, slope:0.0000, rsi:80.02
+3:41:15 PM | info | NVDA: Eval - price:170.61, vwap:170.41, dev:0.119%, slope:0.0000, rsi:42.53
+3:41:15 PM | info | NVDA: Eval - price:171.18, vwap:170.41, dev:0.453%, slope:0.0001, rsi:48.74
+3:41:15 PM | info | NVDA: Eval - price:171.31, vwap:170.41, dev:0.528%, slope:0.0003, rsi:61.12
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-18T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:174.27, vwap:173.34, dev:0.536%, slope:0.0275, rsi:70.04
+3:41:15 PM | info | NVDA: Eval - price:174.43, vwap:173.94, dev:0.281%, slope:0.0187, rsi:63.68
+3:41:15 PM | info | NVDA: Eval - price:175.48, vwap:174.91, dev:0.327%, slope:0.2293, rsi:59.33
+3:41:15 PM | info | NVDA: Eval - price:175.31, vwap:174.94, dev:0.210%, slope:0.0046, rsi:54.11
+3:41:15 PM | info | NVDA: Eval - price:175.36, vwap:174.95, dev:0.235%, slope:0.0052, rsi:60.63
+3:41:15 PM | info | NVDA: Eval - price:174.07, vwap:174.31, dev:-0.135%, slope:-0.0198, rsi:68.88
+3:41:15 PM | info | NVDA: Eval - price:175.75, vwap:174.77, dev:0.557%, slope:0.0227, rsi:52.92
+3:41:15 PM | info | NVDA: Eval - price:175.98, vwap:175.04, dev:0.536%, slope:0.0093, rsi:45.50
+3:41:15 PM | info | NVDA: Eval - price:176.36, vwap:175.32, dev:0.591%, slope:0.0060, rsi:47.35
+3:41:15 PM | info | NVDA: Eval - price:176.25, vwap:175.32, dev:0.527%, slope:0.0060, rsi:37.54
+3:41:15 PM | info | NVDA: Eval - price:176.65, vwap:175.41, dev:0.706%, slope:0.0066, rsi:54.37
+3:41:15 PM | info | NVDA: Eval - price:176.72, vwap:175.47, dev:0.712%, slope:0.0091, rsi:36.78
+3:41:15 PM | info | NVDA: Eval - price:176.57, vwap:175.60, dev:0.551%, slope:0.0077, rsi:33.67
+3:41:15 PM | info | NVDA: Eval - price:176.08, vwap:175.70, dev:0.217%, slope:0.0000, rsi:50.36
+3:41:15 PM | info | NVDA: Eval - price:176.26, vwap:175.70, dev:0.316%, slope:0.0000, rsi:45.47
+3:41:15 PM | info | NVDA: Eval - price:176.36, vwap:175.70, dev:0.373%, slope:0.0001, rsi:72.52
+3:41:15 PM | info | NVDA: Eval - price:176.37, vwap:175.70, dev:0.379%, slope:0.0000, rsi:60.46
+3:41:15 PM | info | NVDA: Eval - price:176.35, vwap:175.70, dev:0.367%, slope:0.0000, rsi:45.39
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-19T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:175.80, vwap:175.77, dev:0.018%, slope:0.0054, rsi:50.55
+3:41:15 PM | info | NVDA: Eval - price:176.04, vwap:175.83, dev:0.120%, slope:0.0032, rsi:60.48
+3:41:15 PM | info | NVDA: Eval - price:175.93, vwap:175.83, dev:0.057%, slope:0.0019, rsi:45.09
+3:41:15 PM | info | NVDA: Eval - price:175.80, vwap:175.81, dev:-0.008%, slope:-0.0002, rsi:59.94
+3:41:15 PM | info | NVDA: Eval - price:175.90, vwap:175.88, dev:0.010%, slope:0.0975, rsi:55.76
+3:41:15 PM | info | NVDA: Eval - price:177.45, vwap:176.35, dev:0.626%, slope:0.0405, rsi:51.16
+3:41:15 PM | info | NVDA: Eval - price:176.07, vwap:176.56, dev:-0.277%, slope:-0.0047, rsi:44.79
+3:41:15 PM | info | NVDA: Eval - price:176.10, vwap:176.36, dev:-0.150%, slope:-0.0015, rsi:38.45
+3:41:15 PM | info | NVDA: Eval - price:176.09, vwap:176.36, dev:-0.151%, slope:-0.0013, rsi:31.99
+3:41:15 PM | info | NVDA: Eval - price:176.24, vwap:176.42, dev:-0.099%, slope:-0.0000, rsi:46.80
+3:41:15 PM | info | NVDA: Eval - price:176.14, vwap:176.42, dev:-0.157%, slope:-0.0000, rsi:42.57
+3:41:15 PM | info | NVDA: Eval - price:176.13, vwap:176.42, dev:-0.162%, slope:-0.0000, rsi:59.39
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-22T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:175.45, vwap:175.26, dev:0.106%, slope:0.0012, rsi:48.25
+3:41:15 PM | info | NVDA: Eval - price:175.41, vwap:175.26, dev:0.083%, slope:0.0012, rsi:40.92
+3:41:15 PM | info | NVDA: Eval - price:175.99, vwap:175.47, dev:0.297%, slope:0.0097, rsi:62.08
+3:41:15 PM | info | NVDA: Eval - price:175.71, vwap:175.42, dev:0.163%, slope:0.0092, rsi:86.18
+3:41:15 PM | info | NVDA: Eval - price:183.46, vwap:179.97, dev:1.937%, slope:0.0410, rsi:74.19
+3:41:15 PM | info | NVDA: Eval - price:183.19, vwap:180.28, dev:1.611%, slope:0.0194, rsi:69.61
+3:41:15 PM | info | NVDA: Eval - price:183.03, vwap:181.02, dev:1.109%, slope:0.0003, rsi:44.01
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-23T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:182.41, vwap:182.48, dev:-0.039%, slope:-0.0005, rsi:46.40
+3:41:15 PM | info | NVDA: Eval - price:181.47, vwap:182.25, dev:-0.428%, slope:-0.0192, rsi:37.77
+3:41:15 PM | info | NVDA: Eval - price:181.96, vwap:182.15, dev:-0.104%, slope:-0.0042, rsi:53.10
+3:41:15 PM | info | NVDA: Eval - price:182.27, vwap:182.16, dev:0.061%, slope:0.0081, rsi:62.67
+3:41:15 PM | info | NVDA: Eval - price:182.04, vwap:182.12, dev:-0.045%, slope:-0.0003, rsi:43.43
+3:41:15 PM | info | NVDA: Eval - price:180.09, vwap:181.03, dev:-0.520%, slope:-0.1617, rsi:41.69
+3:41:15 PM | info | NVDA: Eval - price:179.56, vwap:180.81, dev:-0.690%, slope:-0.1023, rsi:29.87
+3:41:15 PM | info | NVDA: Eval - price:179.71, vwap:180.36, dev:-0.361%, slope:-0.0083, rsi:55.78
+3:41:15 PM | info | NVDA: Eval - price:177.93, vwap:179.43, dev:-0.836%, slope:-0.0007, rsi:30.81
+3:41:15 PM | info | NVDA: Eval - price:178.28, vwap:179.40, dev:-0.627%, slope:-0.0001, rsi:41.12
+3:41:15 PM | info | NVDA: Eval - price:177.96, vwap:179.40, dev:-0.804%, slope:-0.0003, rsi:29.45
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-24T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:179.67, vwap:179.75, dev:-0.047%, slope:-0.0013, rsi:57.82
+3:41:15 PM | info | NVDA: Eval - price:179.82, vwap:179.73, dev:0.048%, slope:0.0004, rsi:58.11
+3:41:15 PM | info | NVDA: Eval - price:178.65, vwap:178.77, dev:-0.067%, slope:-0.0061, rsi:51.33
+3:41:15 PM | info | NVDA: Eval - price:176.13, vwap:177.89, dev:-0.990%, slope:-0.0281, rsi:49.76
+3:41:15 PM | info | NVDA: Eval - price:176.90, vwap:177.66, dev:-0.426%, slope:-0.0046, rsi:47.89
+3:41:15 PM | info | NVDA: Eval - price:176.61, vwap:177.61, dev:-0.562%, slope:-0.0063, rsi:31.70
+3:41:15 PM | info | NVDA: Eval - price:176.99, vwap:177.52, dev:-0.301%, slope:-0.0064, rsi:60.89
+3:41:15 PM | info | NVDA: Eval - price:176.64, vwap:177.41, dev:-0.433%, slope:-0.0001, rsi:46.99
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-25T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:177.30, vwap:177.35, dev:-0.029%, slope:-0.0016, rsi:38.08
+3:41:15 PM | info | NVDA: Eval - price:176.26, vwap:176.86, dev:-0.340%, slope:-0.0146, rsi:57.17
+3:41:15 PM | info | NVDA: Eval - price:178.18, vwap:176.07, dev:1.195%, slope:0.0535, rsi:53.94
+3:41:15 PM | info | NVDA: Eval - price:176.69, vwap:177.32, dev:-0.356%, slope:-0.0049, rsi:27.24
+3:41:15 PM | info | NVDA: Eval - price:176.98, vwap:177.22, dev:-0.133%, slope:-0.0012, rsi:44.87
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-26T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:175.71, vwap:176.28, dev:-0.322%, slope:-0.0262, rsi:30.38
+3:41:15 PM | info | NVDA: Eval - price:175.78, vwap:176.26, dev:-0.273%, slope:-0.0033, rsi:41.26
+3:41:15 PM | info | NVDA: Eval - price:178.16, vwap:177.61, dev:0.308%, slope:0.0056, rsi:57.18
+3:41:15 PM | info | NVDA: Eval - price:176.06, vwap:176.71, dev:-0.367%, slope:-0.0196, rsi:46.76
+3:41:15 PM | info | NVDA: Eval - price:175.85, vwap:176.60, dev:-0.423%, slope:-0.0103, rsi:21.31
+3:41:15 PM | info | NVDA: Eval - price:177.78, vwap:177.04, dev:0.418%, slope:0.0002, rsi:64.78
+3:41:15 PM | info | NVDA: Eval - price:177.70, vwap:177.04, dev:0.372%, slope:0.0000, rsi:67.94
+3:41:15 PM | info | NVDA: Eval - price:177.66, vwap:177.04, dev:0.350%, slope:0.0000, rsi:55.98
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-29T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:179.47, vwap:179.46, dev:0.006%, slope:0.0115, rsi:44.87
+3:41:15 PM | info | NVDA: Eval - price:179.75, vwap:179.51, dev:0.133%, slope:0.0127, rsi:64.22
+3:41:15 PM | info | NVDA: Eval - price:179.76, vwap:179.66, dev:0.057%, slope:0.0026, rsi:54.67
+3:41:15 PM | info | NVDA: Eval - price:179.55, vwap:179.62, dev:-0.036%, slope:-0.0054, rsi:47.39
+3:41:15 PM | info | NVDA: Eval - price:179.46, vwap:179.54, dev:-0.043%, slope:-0.0015, rsi:57.77
+3:41:15 PM | info | NVDA: Eval - price:180.32, vwap:179.83, dev:0.271%, slope:0.0138, rsi:86.99
+3:41:15 PM | info | NVDA: Eval - price:182.21, vwap:180.92, dev:0.712%, slope:1.0516, rsi:95.44
+3:41:15 PM | info | NVDA: Eval - price:183.36, vwap:182.80, dev:0.306%, slope:0.0108, rsi:48.39
+3:41:15 PM | info | NVDA: Eval - price:183.09, vwap:182.83, dev:0.146%, slope:0.0069, rsi:29.92
+3:41:15 PM | info | NVDA: Eval - price:182.78, vwap:182.83, dev:-0.026%, slope:-0.0019, rsi:29.12
+3:41:15 PM | info | NVDA: Eval - price:182.06, vwap:182.58, dev:-0.284%, slope:-0.0032, rsi:73.09
+3:41:15 PM | info | NVDA: Eval - price:181.63, vwap:182.53, dev:-0.493%, slope:-0.0056, rsi:30.10
+3:41:15 PM | info | NVDA: Eval - price:181.66, vwap:182.52, dev:-0.469%, slope:-0.0046, rsi:54.08
+3:41:15 PM | info | NVDA: Eval - price:181.33, vwap:182.29, dev:-0.527%, slope:-0.0001, rsi:55.83
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-09-30T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:181.27, vwap:180.97, dev:0.166%, slope:0.0152, rsi:60.18
+3:41:15 PM | info | NVDA: Eval - price:182.22, vwap:181.51, dev:0.393%, slope:0.0655, rsi:47.78
+3:41:15 PM | info | NVDA: Eval - price:182.31, vwap:181.55, dev:0.417%, slope:0.0152, rsi:56.30
+3:41:15 PM | info | NVDA: Eval - price:182.70, vwap:182.06, dev:0.352%, slope:0.0195, rsi:45.39
+3:41:15 PM | info | NVDA: Eval - price:182.71, vwap:182.09, dev:0.339%, slope:0.0101, rsi:48.20
+3:41:15 PM | info | NVDA: Eval - price:182.61, vwap:182.25, dev:0.195%, slope:0.0210, rsi:60.72
+3:41:15 PM | info | NVDA: Eval - price:186.22, vwap:184.08, dev:1.166%, slope:0.0738, rsi:74.36
+3:41:15 PM | info | NVDA: Eval - price:186.43, vwap:185.18, dev:0.670%, slope:0.0082, rsi:56.43
+3:41:15 PM | info | NVDA: Eval - price:186.19, vwap:185.31, dev:0.477%, slope:0.0051, rsi:40.33
+3:41:15 PM | info | NVDA: Eval - price:186.10, vwap:185.33, dev:0.412%, slope:0.0036, rsi:40.88
+3:41:15 PM | info | NVDA: Eval - price:186.19, vwap:185.55, dev:0.345%, slope:0.0000, rsi:56.45
+3:41:15 PM | info | NVDA: Eval - price:186.31, vwap:185.55, dev:0.408%, slope:0.0000, rsi:49.10
+3:41:15 PM | info | NVDA: Eval - price:186.40, vwap:185.55, dev:0.457%, slope:0.0001, rsi:75.39
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-01T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:185.55, vwap:184.90, dev:0.351%, slope:0.0306, rsi:50.03
+3:41:15 PM | info | NVDA: Eval - price:185.47, vwap:184.99, dev:0.259%, slope:0.0067, rsi:59.90
+3:41:15 PM | info | NVDA: Eval - price:185.42, vwap:185.02, dev:0.215%, slope:0.0051, rsi:50.04
+3:41:15 PM | info | NVDA: Eval - price:185.28, vwap:185.04, dev:0.129%, slope:0.0049, rsi:55.21
+3:41:15 PM | info | NVDA: Eval - price:185.05, vwap:185.21, dev:-0.086%, slope:-0.0728, rsi:51.35
+3:41:15 PM | info | NVDA: Eval - price:187.06, vwap:185.88, dev:0.638%, slope:0.0200, rsi:48.61
+3:41:15 PM | info | NVDA: Eval - price:187.95, vwap:186.19, dev:0.947%, slope:0.0423, rsi:91.08
+3:41:15 PM | info | NVDA: Eval - price:187.14, vwap:186.49, dev:0.351%, slope:0.0077, rsi:61.49
+3:41:15 PM | info | NVDA: Eval - price:186.98, vwap:186.60, dev:0.201%, slope:0.0000, rsi:67.35
+3:41:15 PM | info | NVDA: Eval - price:187.04, vwap:186.60, dev:0.234%, slope:0.0000, rsi:22.54
+3:41:15 PM | info | NVDA: Eval - price:187.04, vwap:186.61, dev:0.233%, slope:0.0000, rsi:51.12
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-02T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:189.79, vwap:189.32, dev:0.250%, slope:0.0077, rsi:64.09
+3:41:15 PM | info | NVDA: Eval - price:189.74, vwap:189.32, dev:0.221%, slope:0.0049, rsi:47.13
+3:41:15 PM | info | NVDA: Eval - price:189.84, vwap:189.62, dev:0.115%, slope:0.0036, rsi:38.20
+3:41:15 PM | info | NVDA: Eval - price:189.68, vwap:189.64, dev:0.019%, slope:0.0006, rsi:26.11
+3:41:15 PM | info | NVDA: Eval - price:189.29, vwap:189.61, dev:-0.169%, slope:-0.0030, rsi:62.68
+3:41:15 PM | info | NVDA: Eval - price:189.01, vwap:189.48, dev:-0.247%, slope:-0.0037, rsi:77.41
+3:41:15 PM | info | NVDA: Eval - price:189.17, vwap:189.46, dev:-0.156%, slope:-0.0017, rsi:58.77
+3:41:15 PM | info | NVDA: Eval - price:188.64, vwap:189.38, dev:-0.389%, slope:-0.0001, rsi:28.85
+3:41:15 PM | info | NVDA: Eval - price:188.53, vwap:189.38, dev:-0.446%, slope:-0.0002, rsi:42.10
+3:41:15 PM | info | NVDA: Eval - price:188.47, vwap:189.37, dev:-0.477%, slope:-0.0001, rsi:67.71
+3:41:15 PM | info | NVDA: Eval - price:188.45, vwap:189.37, dev:-0.485%, slope:-0.0000, rsi:42.53
+3:41:15 PM | info | NVDA: Eval - price:188.45, vwap:189.37, dev:-0.487%, slope:-0.0000, rsi:41.50
+3:41:15 PM | info | NVDA: Eval - price:188.89, vwap:189.37, dev:-0.254%, slope:-0.0000, rsi:73.96
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-03T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:189.77, vwap:189.49, dev:0.150%, slope:0.0022, rsi:54.79
+3:41:15 PM | info | NVDA: Eval - price:189.90, vwap:189.57, dev:0.173%, slope:0.0076, rsi:52.33
+3:41:15 PM | info | NVDA: Eval - price:189.55, vwap:189.55, dev:-0.002%, slope:-0.0395, rsi:48.12
+3:41:15 PM | info | NVDA: Eval - price:189.25, vwap:189.38, dev:-0.068%, slope:-0.0125, rsi:67.79
+3:41:15 PM | info | NVDA: Eval - price:189.25, vwap:189.26, dev:-0.006%, slope:-0.0003, rsi:63.85
+3:41:15 PM | info | NVDA: Eval - price:188.71, vwap:189.18, dev:-0.253%, slope:-0.0081, rsi:61.54
+3:41:15 PM | info | NVDA: Eval - price:187.27, vwap:189.00, dev:-0.913%, slope:-0.0428, rsi:18.95
+3:41:15 PM | info | NVDA: Eval - price:186.24, vwap:188.74, dev:-1.323%, slope:-0.0543, rsi:12.05
+3:41:15 PM | info | NVDA: Eval - price:187.14, vwap:188.35, dev:-0.640%, slope:-0.0137, rsi:44.11
+3:41:15 PM | info | NVDA: Eval - price:187.47, vwap:188.12, dev:-0.347%, slope:-0.0000, rsi:43.89
+3:41:15 PM | info | NVDA: Eval - price:187.46, vwap:188.12, dev:-0.352%, slope:-0.0000, rsi:48.27
+3:41:15 PM | info | NVDA: Eval - price:187.54, vwap:188.12, dev:-0.310%, slope:-0.0001, rsi:69.42
+3:41:15 PM | info | NVDA: Eval - price:187.62, vwap:188.12, dev:-0.265%, slope:-0.0000, rsi:43.60
+3:41:15 PM | info | NVDA: Eval - price:187.69, vwap:188.12, dev:-0.228%, slope:-0.0000, rsi:66.21
+3:41:15 PM | info | NVDA: Eval - price:187.71, vwap:188.12, dev:-0.217%, slope:-0.0000, rsi:59.03
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-06T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:188.61, vwap:188.58, dev:0.018%, slope:0.0032, rsi:48.16
+3:41:15 PM | info | NVDA: Eval - price:188.86, vwap:188.72, dev:0.074%, slope:0.0044, rsi:50.62
+3:41:15 PM | info | NVDA: Eval - price:189.70, vwap:189.06, dev:0.338%, slope:0.0119, rsi:51.33
+3:41:15 PM | info | NVDA: Eval - price:189.91, vwap:189.09, dev:0.432%, slope:0.0270, rsi:77.10
+3:41:15 PM | info | NVDA: Eval - price:186.00, vwap:188.41, dev:-1.280%, slope:-0.3250, rsi:13.19
+3:41:15 PM | info | NVDA: Eval - price:185.05, vwap:185.68, dev:-0.339%, slope:-0.0099, rsi:41.61
+3:41:15 PM | info | NVDA: Eval - price:185.04, vwap:185.66, dev:-0.332%, slope:-0.0248, rsi:42.79
+3:41:15 PM | info | NVDA: Eval - price:184.63, vwap:185.59, dev:-0.520%, slope:-0.0219, rsi:34.79
+3:41:15 PM | info | NVDA: Eval - price:185.10, vwap:185.55, dev:-0.244%, slope:-0.0289, rsi:58.05
+3:41:15 PM | info | NVDA: Eval - price:185.48, vwap:185.50, dev:-0.011%, slope:-0.0019, rsi:76.90
+3:41:15 PM | info | NVDA: Eval - price:185.76, vwap:185.58, dev:0.099%, slope:0.0148, rsi:37.24
+3:41:15 PM | info | NVDA: Eval - price:184.94, vwap:185.55, dev:-0.329%, slope:-0.0124, rsi:26.91
+3:41:15 PM | info | NVDA: Eval - price:184.62, vwap:185.50, dev:-0.476%, slope:-0.0367, rsi:29.26
+3:41:15 PM | info | NVDA: Eval - price:186.16, vwap:185.70, dev:0.246%, slope:0.0025, rsi:24.87
+3:41:15 PM | info | NVDA: Eval - price:185.69, vwap:185.72, dev:-0.021%, slope:0.0001, rsi:39.50
+3:41:15 PM | info | NVDA: Eval - price:185.67, vwap:185.70, dev:-0.018%, slope:0.0000, rsi:25.02
+3:41:15 PM | info | NVDA: Eval - price:185.85, vwap:185.70, dev:0.079%, slope:0.0000, rsi:60.29
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-07T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:186.15, vwap:186.17, dev:-0.011%, slope:-0.0008, rsi:51.59
+3:41:15 PM | info | NVDA: Eval - price:186.33, vwap:186.34, dev:-0.003%, slope:-0.0001, rsi:41.45
+3:41:15 PM | info | NVDA: Eval - price:186.11, vwap:186.32, dev:-0.112%, slope:-0.0097, rsi:37.75
+3:41:15 PM | info | NVDA: Eval - price:186.36, vwap:186.29, dev:0.039%, slope:0.0041, rsi:64.35
+3:41:15 PM | info | NVDA: Eval - price:186.24, vwap:186.29, dev:-0.025%, slope:-0.0014, rsi:44.37
+3:41:15 PM | info | NVDA: Eval - price:186.25, vwap:186.29, dev:-0.020%, slope:-0.0008, rsi:46.74
+3:41:15 PM | info | NVDA: Eval - price:185.62, vwap:187.70, dev:-1.109%, slope:-0.1014, rsi:6.11
+3:41:15 PM | info | NVDA: Eval - price:185.65, vwap:186.72, dev:-0.569%, slope:-0.0145, rsi:61.88
+3:41:15 PM | info | NVDA: Eval - price:185.76, vwap:186.62, dev:-0.462%, slope:-0.0043, rsi:42.58
+3:41:15 PM | info | NVDA: Eval - price:185.28, vwap:186.30, dev:-0.545%, slope:-0.0001, rsi:44.43
+3:41:15 PM | info | NVDA: Eval - price:185.48, vwap:186.29, dev:-0.437%, slope:-0.0001, rsi:78.48
+3:41:15 PM | info | NVDA: Eval - price:185.41, vwap:186.29, dev:-0.474%, slope:-0.0001, rsi:46.23
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-08T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:186.03, vwap:186.17, dev:-0.074%, slope:-0.0007, rsi:37.84
+3:41:15 PM | info | NVDA: Eval - price:186.35, vwap:186.17, dev:0.095%, slope:0.0036, rsi:72.43
+3:41:15 PM | info | NVDA: Eval - price:188.49, vwap:188.29, dev:0.103%, slope:0.0013, rsi:59.61
+3:41:15 PM | info | NVDA: Eval - price:189.03, vwap:188.42, dev:0.326%, slope:0.0000, rsi:36.64
+3:41:15 PM | info | NVDA: Eval - price:189.05, vwap:188.42, dev:0.337%, slope:0.0000, rsi:50.60
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-09T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:190.45, vwap:190.91, dev:-0.239%, slope:-0.0225, rsi:55.64
+3:41:15 PM | info | NVDA: Eval - price:191.48, vwap:191.12, dev:0.186%, slope:0.0066, rsi:38.60
+3:41:15 PM | info | NVDA: Eval - price:192.71, vwap:193.38, dev:-0.351%, slope:-0.0031, rsi:41.09
+3:41:15 PM | info | NVDA: Eval - price:192.91, vwap:193.37, dev:-0.238%, slope:-0.0028, rsi:55.70
+3:41:15 PM | info | NVDA: Eval - price:192.18, vwap:193.19, dev:-0.525%, slope:-0.0069, rsi:29.70
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-10T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:190.00, vwap:192.06, dev:-1.072%, slope:-0.0623, rsi:68.23
+3:41:15 PM | info | NVDA: Eval - price:188.90, vwap:191.81, dev:-1.516%, slope:-0.0362, rsi:34.42
+3:41:15 PM | info | NVDA: Eval - price:188.23, vwap:191.17, dev:-1.535%, slope:-0.0171, rsi:60.99
+3:41:15 PM | info | NVDA: Eval - price:187.81, vwap:190.93, dev:-1.634%, slope:-0.0200, rsi:60.32
+3:41:15 PM | info | NVDA: Eval - price:188.16, vwap:190.92, dev:-1.443%, slope:-0.0180, rsi:67.18
+3:41:15 PM | info | NVDA: Eval - price:187.38, vwap:190.84, dev:-1.813%, slope:-0.0141, rsi:43.86
+3:41:15 PM | info | NVDA: Eval - price:187.51, vwap:190.73, dev:-1.689%, slope:-0.0191, rsi:71.10
+3:41:15 PM | info | NVDA: Eval - price:183.84, vwap:188.90, dev:-2.677%, slope:-0.0036, rsi:60.24
+3:41:15 PM | info | NVDA: Eval - price:180.68, vwap:188.85, dev:-4.325%, slope:-0.0104, rsi:16.51
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-13T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:189.64, vwap:189.59, dev:0.025%, slope:-0.0009, rsi:60.60
+3:41:15 PM | info | NVDA: Eval - price:188.71, vwap:188.87, dev:-0.084%, slope:-0.0024, rsi:37.02
+3:41:15 PM | info | NVDA: Eval - price:187.80, vwap:188.31, dev:-0.269%, slope:-0.0031, rsi:36.14
+3:41:15 PM | info | NVDA: Eval - price:188.29, vwap:188.31, dev:-0.010%, slope:-0.0000, rsi:49.48
+3:41:15 PM | info | NVDA: Eval - price:188.65, vwap:188.31, dev:0.181%, slope:0.0000, rsi:76.61
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-14T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:184.11, vwap:184.71, dev:-0.327%, slope:-0.0201, rsi:61.93
+3:41:15 PM | info | NVDA: Eval - price:182.18, vwap:182.19, dev:-0.005%, slope:0.0000, rsi:55.79
+3:41:15 PM | info | NVDA: Eval - price:181.66, vwap:182.18, dev:-0.286%, slope:-0.0045, rsi:27.47
+3:41:15 PM | info | NVDA: Eval - price:181.13, vwap:181.82, dev:-0.377%, slope:-0.0001, rsi:45.72
+3:41:15 PM | info | NVDA: Eval - price:181.33, vwap:181.81, dev:-0.264%, slope:-0.0000, rsi:41.63
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-15T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:183.78, vwap:183.81, dev:-0.019%, slope:-0.0020, rsi:40.25
+3:41:15 PM | info | NVDA: Eval - price:184.70, vwap:184.08, dev:0.339%, slope:0.0154, rsi:65.10
+3:41:15 PM | info | NVDA: Eval - price:184.71, vwap:184.25, dev:0.249%, slope:0.0199, rsi:64.94
+3:41:15 PM | info | NVDA: Eval - price:182.54, vwap:182.70, dev:-0.085%, slope:-0.0027, rsi:64.10
+3:41:15 PM | info | NVDA: Eval - price:180.37, vwap:182.20, dev:-1.003%, slope:-0.0194, rsi:42.34
+3:41:15 PM | info | NVDA: Eval - price:180.89, vwap:182.10, dev:-0.667%, slope:-0.0195, rsi:81.30
+3:41:15 PM | info | NVDA: Eval - price:180.87, vwap:182.10, dev:-0.673%, slope:-0.0192, rsi:79.31
+3:41:15 PM | info | NVDA: Eval - price:179.78, vwap:181.22, dev:-0.795%, slope:-0.0093, rsi:49.42
+3:41:15 PM | info | NVDA: Eval - price:180.16, vwap:181.17, dev:-0.556%, slope:-0.0053, rsi:34.82
+3:41:15 PM | info | NVDA: Eval - price:180.13, vwap:181.09, dev:-0.529%, slope:-0.0060, rsi:66.57
+3:41:15 PM | info | NVDA: Eval - price:180.22, vwap:180.87, dev:-0.360%, slope:-0.0003, rsi:51.29
+3:41:15 PM | info | NVDA: Eval - price:180.65, vwap:180.87, dev:-0.119%, slope:-0.0000, rsi:62.14
+3:41:15 PM | info | NVDA: Eval - price:180.72, vwap:180.86, dev:-0.080%, slope:-0.0000, rsi:39.90
+3:41:15 PM | info | NVDA: Eval - price:180.76, vwap:180.86, dev:-0.057%, slope:-0.0000, rsi:48.68
+3:41:15 PM | info | NVDA: Eval - price:180.87, vwap:180.86, dev:0.003%, slope:-0.0000, rsi:66.61
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-16T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:182.05, vwap:182.03, dev:0.009%, slope:-0.0039, rsi:64.83
+3:41:15 PM | info | NVDA: Eval - price:181.97, vwap:181.89, dev:0.044%, slope:0.0058, rsi:61.34
+3:41:15 PM | info | NVDA: Eval - price:181.66, vwap:181.98, dev:-0.180%, slope:-0.0213, rsi:43.84
+3:41:15 PM | info | NVDA: Eval - price:181.60, vwap:181.69, dev:-0.047%, slope:-0.0000, rsi:85.55
+3:41:15 PM | info | NVDA: Eval - price:180.86, vwap:181.68, dev:-0.454%, slope:-0.0001, rsi:47.58
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-17T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:179.90, vwap:178.88, dev:0.570%, slope:0.0165, rsi:33.89
+3:41:15 PM | info | NVDA: Eval - price:179.75, vwap:178.90, dev:0.474%, slope:0.0081, rsi:40.34
+3:41:15 PM | info | NVDA: Eval - price:180.97, vwap:179.75, dev:0.679%, slope:0.1533, rsi:61.59
+3:41:15 PM | info | NVDA: Eval - price:181.70, vwap:180.21, dev:0.829%, slope:0.1551, rsi:75.45
+3:41:15 PM | info | NVDA: Eval - price:182.91, vwap:180.84, dev:1.143%, slope:0.1217, rsi:76.24
+3:41:15 PM | info | NVDA: Eval - price:183.53, vwap:181.92, dev:0.884%, slope:0.0082, rsi:55.75
+3:41:15 PM | info | NVDA: Eval - price:183.18, vwap:182.18, dev:0.552%, slope:0.0005, rsi:45.49
+3:41:15 PM | info | NVDA: Eval - price:183.09, vwap:182.19, dev:0.493%, slope:0.0000, rsi:55.95
+3:41:15 PM | info | NVDA: Eval - price:183.06, vwap:182.19, dev:0.477%, slope:0.0001, rsi:38.27
+3:41:15 PM | info | NVDA: Eval - price:183.17, vwap:182.19, dev:0.537%, slope:0.0000, rsi:70.53
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-20T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:184.01, vwap:184.37, dev:-0.193%, slope:-0.0571, rsi:19.27
+3:41:15 PM | info | NVDA: Eval - price:183.70, vwap:184.17, dev:-0.256%, slope:-0.0195, rsi:37.20
+3:41:15 PM | info | NVDA: Eval - price:183.50, vwap:183.89, dev:-0.210%, slope:-0.0064, rsi:68.07
+3:41:15 PM | info | NVDA: Eval - price:183.42, vwap:183.85, dev:-0.235%, slope:-0.0097, rsi:35.69
+3:41:15 PM | info | NVDA: Eval - price:183.42, vwap:183.85, dev:-0.234%, slope:-0.0077, rsi:37.81
+3:41:15 PM | info | NVDA: Eval - price:182.95, vwap:183.32, dev:-0.200%, slope:-0.0049, rsi:59.16
+3:41:15 PM | info | NVDA: Eval - price:182.95, vwap:183.31, dev:-0.195%, slope:-0.0058, rsi:57.85
+3:41:15 PM | info | NVDA: Eval - price:182.98, vwap:182.78, dev:0.107%, slope:0.0058, rsi:59.95
+3:41:15 PM | info | NVDA: Eval - price:184.94, vwap:183.12, dev:0.997%, slope:0.1361, rsi:90.05
+3:41:15 PM | info | NVDA: Eval - price:184.73, vwap:183.19, dev:0.840%, slope:0.1458, rsi:70.71
+3:41:15 PM | info | NVDA: Eval - price:183.62, vwap:183.37, dev:0.139%, slope:0.0077, rsi:29.09
+3:41:15 PM | info | NVDA: Eval - price:183.53, vwap:183.38, dev:0.081%, slope:-0.0004, rsi:60.46
+3:41:15 PM | info | NVDA: Eval - price:183.68, vwap:183.49, dev:0.102%, slope:0.0016, rsi:50.71
+3:41:15 PM | info | NVDA: Eval - price:182.70, vwap:183.31, dev:-0.335%, slope:-0.0005, rsi:60.15
+3:41:15 PM | info | NVDA: Eval - price:182.94, vwap:183.31, dev:-0.204%, slope:-0.0001, rsi:60.64
+3:41:15 PM | info | NVDA: Eval - price:182.88, vwap:183.31, dev:-0.235%, slope:-0.0000, rsi:55.33
+3:41:15 PM | info | NVDA: Eval - price:182.84, vwap:183.31, dev:-0.257%, slope:-0.0000, rsi:38.33
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-21T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:182.73, vwap:182.75, dev:-0.009%, slope:-0.0003, rsi:47.81
+3:41:15 PM | info | NVDA: Eval - price:182.34, vwap:182.48, dev:-0.079%, slope:-0.0084, rsi:46.37
+3:41:15 PM | info | NVDA: Eval - price:182.33, vwap:182.45, dev:-0.067%, slope:-0.0065, rsi:58.66
+3:41:15 PM | info | NVDA: Eval - price:182.58, vwap:182.42, dev:0.087%, slope:0.0045, rsi:86.78
+3:41:15 PM | info | NVDA: Eval - price:182.64, vwap:182.43, dev:0.117%, slope:0.0095, rsi:76.18
+3:41:15 PM | info | NVDA: Eval - price:180.84, vwap:181.72, dev:-0.488%, slope:-0.0726, rsi:37.55
+3:41:15 PM | info | NVDA: Eval - price:181.96, vwap:181.14, dev:0.454%, slope:0.0277, rsi:67.93
+3:41:15 PM | info | NVDA: Eval - price:182.43, vwap:181.30, dev:0.623%, slope:0.0130, rsi:62.69
+3:41:15 PM | info | NVDA: Eval - price:181.43, vwap:181.41, dev:0.010%, slope:0.0000, rsi:41.84
+3:41:15 PM | info | NVDA: Eval - price:181.34, vwap:181.41, dev:-0.039%, slope:-0.0005, rsi:42.74
+3:41:15 PM | info | NVDA: Eval - price:181.16, vwap:181.39, dev:-0.125%, slope:-0.0027, rsi:24.04
+3:41:15 PM | info | NVDA: Eval - price:180.80, vwap:181.36, dev:-0.308%, slope:-0.0009, rsi:23.05
+3:41:15 PM | info | NVDA: Eval - price:181.05, vwap:181.34, dev:-0.161%, slope:-0.0000, rsi:46.67
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-22T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:181.39, vwap:181.21, dev:0.098%, slope:0.0287, rsi:67.65
+3:41:15 PM | info | NVDA: Eval - price:181.16, vwap:181.25, dev:-0.051%, slope:0.0008, rsi:41.59
+3:41:15 PM | info | NVDA: Eval - price:180.49, vwap:181.67, dev:-0.648%, slope:-0.0474, rsi:40.37
+3:41:15 PM | info | NVDA: Eval - price:179.35, vwap:180.60, dev:-0.691%, slope:-0.0120, rsi:33.97
+3:41:15 PM | info | NVDA: Eval - price:178.87, vwap:180.40, dev:-0.851%, slope:-0.0230, rsi:52.36
+3:41:15 PM | info | NVDA: Eval - price:178.62, vwap:179.71, dev:-0.604%, slope:-0.0088, rsi:79.28
+3:41:15 PM | info | NVDA: Eval - price:180.04, vwap:179.67, dev:0.207%, slope:0.0035, rsi:63.58
+3:41:15 PM | info | NVDA: Eval - price:179.94, vwap:179.73, dev:0.115%, slope:0.0000, rsi:60.60
+3:41:15 PM | info | NVDA: Eval - price:180.01, vwap:179.73, dev:0.154%, slope:0.0000, rsi:43.61
+3:41:15 PM | info | NVDA: Eval - price:180.01, vwap:179.73, dev:0.154%, slope:0.0000, rsi:39.23
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-23T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:180.78, vwap:180.74, dev:0.023%, slope:0.0008, rsi:52.36
+3:41:15 PM | info | NVDA: Eval - price:180.30, vwap:180.54, dev:-0.131%, slope:-0.0043, rsi:61.19
+3:41:15 PM | info | NVDA: Eval - price:179.95, vwap:180.38, dev:-0.237%, slope:-0.0063, rsi:63.66
+3:41:15 PM | info | NVDA: Eval - price:179.37, vwap:179.80, dev:-0.238%, slope:-0.0449, rsi:25.96
+3:41:15 PM | info | NVDA: Eval - price:179.50, vwap:179.76, dev:-0.145%, slope:-0.0100, rsi:55.70
+3:41:15 PM | info | NVDA: Eval - price:182.16, vwap:181.02, dev:0.625%, slope:0.0453, rsi:60.46
+3:41:15 PM | info | NVDA: Eval - price:182.20, vwap:181.73, dev:0.258%, slope:0.0077, rsi:45.95
+3:41:15 PM | info | NVDA: Eval - price:182.27, vwap:181.79, dev:0.264%, slope:0.0001, rsi:47.26
+3:41:15 PM | info | NVDA: Eval - price:182.27, vwap:181.79, dev:0.262%, slope:0.0001, rsi:47.16
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-24T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:185.34, vwap:185.01, dev:0.180%, slope:0.0029, rsi:59.68
+3:41:15 PM | info | NVDA: Eval - price:186.41, vwap:185.56, dev:0.456%, slope:0.0003, rsi:49.65
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-27T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:190.72, vwap:190.27, dev:0.238%, slope:0.0112, rsi:34.92
+3:41:15 PM | info | NVDA: Eval - price:190.65, vwap:190.53, dev:0.065%, slope:0.0020, rsi:34.50
+3:41:15 PM | info | NVDA: Eval - price:190.48, vwap:190.58, dev:-0.051%, slope:-0.0010, rsi:38.49
+3:41:15 PM | info | NVDA: Eval - price:190.41, vwap:190.55, dev:-0.075%, slope:-0.0015, rsi:39.98
+3:41:15 PM | info | NVDA: Eval - price:191.01, vwap:190.50, dev:0.271%, slope:0.0629, rsi:65.46
+3:41:15 PM | info | NVDA: Eval - price:190.94, vwap:190.43, dev:0.263%, slope:0.0042, rsi:45.39
+3:41:15 PM | info | NVDA: Eval - price:190.83, vwap:190.64, dev:0.102%, slope:0.0015, rsi:57.60
+3:41:15 PM | info | NVDA: Eval - price:191.56, vwap:190.80, dev:0.399%, slope:0.0002, rsi:41.35
+3:41:15 PM | info | NVDA: Eval - price:191.42, vwap:190.81, dev:0.320%, slope:0.0001, rsi:63.64
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-28T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:191.06, vwap:190.84, dev:0.117%, slope:0.0228, rsi:79.89
+3:41:15 PM | info | NVDA: Eval - price:191.24, vwap:190.92, dev:0.166%, slope:0.0259, rsi:69.83
+3:41:15 PM | info | NVDA: Eval - price:192.36, vwap:191.52, dev:0.439%, slope:0.0328, rsi:65.86
+3:41:15 PM | info | NVDA: Eval - price:192.60, vwap:191.55, dev:0.550%, slope:0.0378, rsi:78.03
+3:41:15 PM | info | NVDA: Eval - price:192.46, vwap:193.72, dev:-0.648%, slope:-0.0225, rsi:34.74
+3:41:15 PM | info | NVDA: Eval - price:194.34, vwap:193.50, dev:0.432%, slope:0.0162, rsi:65.33
+3:41:15 PM | info | NVDA: Eval - price:199.67, vwap:195.34, dev:2.218%, slope:0.0696, rsi:57.49
+3:41:15 PM | info | NVDA: Eval - price:199.67, vwap:195.37, dev:2.203%, slope:0.0630, rsi:57.01
+3:41:15 PM | info | NVDA: Eval - price:201.10, vwap:196.23, dev:2.483%, slope:0.0963, rsi:44.43
+3:41:15 PM | info | NVDA: Eval - price:202.69, vwap:196.52, dev:3.138%, slope:0.0968, rsi:81.62
+3:41:15 PM | info | NVDA: Eval - price:203.52, vwap:197.54, dev:3.028%, slope:0.0018, rsi:77.65
+3:41:15 PM | info | NVDA: Eval - price:203.83, vwap:197.55, dev:3.180%, slope:0.0009, rsi:64.99
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-29T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:207.13, vwap:207.03, dev:0.049%, slope:0.0042, rsi:36.04
+3:41:15 PM | info | NVDA: Eval - price:207.44, vwap:207.05, dev:0.190%, slope:0.0070, rsi:57.98
+3:41:15 PM | info | NVDA: Eval - price:209.15, vwap:207.55, dev:0.773%, slope:0.0805, rsi:89.61
+3:41:15 PM | info | NVDA: Eval - price:209.17, vwap:207.59, dev:0.761%, slope:0.0336, rsi:74.53
+3:41:15 PM | info | NVDA: Eval - price:210.18, vwap:208.94, dev:0.595%, slope:0.6473, rsi:57.78
+3:41:15 PM | info | NVDA: Eval - price:208.96, vwap:209.68, dev:-0.343%, slope:-0.0094, rsi:61.86
+3:41:15 PM | info | NVDA: Eval - price:206.78, vwap:209.14, dev:-1.132%, slope:-0.0210, rsi:71.04
+3:41:15 PM | info | NVDA: Eval - price:206.91, vwap:208.90, dev:-0.954%, slope:-0.0090, rsi:42.80
+3:41:15 PM | info | NVDA: Eval - price:207.40, vwap:208.75, dev:-0.647%, slope:-0.0078, rsi:63.14
+3:41:15 PM | info | NVDA: Eval - price:205.88, vwap:208.25, dev:-1.137%, slope:-0.0008, rsi:15.20
+3:41:15 PM | info | NVDA: Eval - price:205.02, vwap:208.24, dev:-1.548%, slope:-0.0011, rsi:29.71
+3:41:15 PM | info | NVDA: Eval - price:207.56, vwap:208.23, dev:-0.323%, slope:-0.0001, rsi:45.33
+3:41:15 PM | info | NVDA: Eval - price:207.15, vwap:208.23, dev:-0.519%, slope:-0.0001, rsi:22.25
+3:41:15 PM | info | NVDA: Eval - price:207.32, vwap:208.23, dev:-0.439%, slope:-0.0001, rsi:46.74
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-30T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:205.53, vwap:206.68, dev:-0.556%, slope:-0.0210, rsi:50.47
+3:41:15 PM | info | NVDA: Eval - price:203.20, vwap:205.57, dev:-1.155%, slope:-0.0537, rsi:46.11
+3:41:15 PM | info | NVDA: Eval - price:202.92, vwap:203.45, dev:-0.260%, slope:-0.0210, rsi:55.47
+3:41:15 PM | info | NVDA: Eval - price:203.15, vwap:203.44, dev:-0.144%, slope:-0.0022, rsi:52.79
+3:41:15 PM | info | NVDA: Eval - price:204.36, vwap:203.33, dev:0.510%, slope:0.0137, rsi:78.63
+3:41:15 PM | info | NVDA: Eval - price:203.07, vwap:203.38, dev:-0.154%, slope:-0.0018, rsi:25.22
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-10-31T08:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:206.60, vwap:206.96, dev:-0.173%, slope:-0.0036, rsi:34.94
+3:41:15 PM | info | NVDA: Eval - price:205.19, vwap:206.30, dev:-0.536%, slope:-0.0616, rsi:48.24
+3:41:15 PM | info | NVDA: Eval - price:203.99, vwap:204.99, dev:-0.491%, slope:-0.0094, rsi:77.17
+3:41:15 PM | info | NVDA: Eval - price:203.60, vwap:204.90, dev:-0.636%, slope:-0.0118, rsi:37.76
+3:41:15 PM | info | NVDA: Eval - price:202.44, vwap:204.38, dev:-0.949%, slope:-0.0008, rsi:44.12
+3:41:15 PM | info | NVDA: Eval - price:202.51, vwap:204.35, dev:-0.903%, slope:-0.0213, rsi:47.45
+3:41:15 PM | info | NVDA: Eval - price:202.72, vwap:204.34, dev:-0.793%, slope:-0.0001, rsi:60.83
+3:41:15 PM | info | NVDA: Eval - price:202.76, vwap:204.34, dev:-0.773%, slope:-0.0001, rsi:34.19
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-03T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:209.95, vwap:208.29, dev:0.796%, slope:0.0171, rsi:45.85
+3:41:15 PM | info | NVDA: Eval - price:211.01, vwap:208.51, dev:1.201%, slope:0.0343, rsi:63.38
+3:41:15 PM | info | NVDA: Eval - price:208.28, vwap:208.66, dev:-0.183%, slope:-0.0057, rsi:74.06
+3:41:15 PM | info | NVDA: Eval - price:206.88, vwap:208.34, dev:-0.702%, slope:-0.0004, rsi:10.08
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-04T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:203.09, vwap:202.69, dev:0.199%, slope:0.0052, rsi:70.19
+3:41:15 PM | info | NVDA: Eval - price:203.06, vwap:202.70, dev:0.175%, slope:0.0066, rsi:57.88
+3:41:15 PM | info | NVDA: Eval - price:203.05, vwap:202.78, dev:0.131%, slope:0.0070, rsi:61.90
+3:41:15 PM | info | NVDA: Eval - price:202.84, vwap:202.99, dev:-0.073%, slope:-0.0032, rsi:46.01
+3:41:15 PM | info | NVDA: Eval - price:200.64, vwap:201.59, dev:-0.471%, slope:-0.0126, rsi:78.80
+3:41:15 PM | info | NVDA: Eval - price:200.19, vwap:201.52, dev:-0.662%, slope:-0.0105, rsi:51.98
+3:41:15 PM | info | NVDA: Eval - price:199.95, vwap:201.15, dev:-0.598%, slope:-0.0141, rsi:61.96
+3:41:15 PM | info | NVDA: Eval - price:197.64, vwap:200.74, dev:-1.544%, slope:-0.0040, rsi:42.47
+3:41:15 PM | info | NVDA: Eval - price:197.16, vwap:200.72, dev:-1.776%, slope:-0.0019, rsi:51.38
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-05T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:198.80, vwap:197.28, dev:0.769%, slope:0.0740, rsi:71.52
+3:41:15 PM | info | NVDA: Eval - price:201.40, vwap:200.42, dev:0.489%, slope:0.0093, rsi:59.58
+3:41:15 PM | info | NVDA: Eval - price:201.59, vwap:200.44, dev:0.574%, slope:0.0090, rsi:60.73
+3:41:15 PM | info | NVDA: Eval - price:201.39, vwap:200.57, dev:0.411%, slope:0.0061, rsi:26.65
+3:41:15 PM | info | NVDA: Eval - price:195.93, vwap:199.21, dev:-1.646%, slope:-0.0025, rsi:70.96
+3:41:15 PM | info | NVDA: Eval - price:197.17, vwap:199.15, dev:-0.995%, slope:-0.0006, rsi:59.74
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-06T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:197.83, vwap:197.46, dev:0.188%, slope:0.0070, rsi:72.68
+3:41:15 PM | info | NVDA: Eval - price:198.12, vwap:197.69, dev:0.217%, slope:0.0146, rsi:59.85
+3:41:15 PM | info | NVDA: Eval - price:197.91, vwap:197.78, dev:0.065%, slope:0.0027, rsi:50.73
+3:41:15 PM | info | NVDA: Eval - price:197.22, vwap:197.72, dev:-0.254%, slope:-0.0133, rsi:42.69
+3:41:15 PM | info | NVDA: Eval - price:188.78, vwap:191.51, dev:-1.423%, slope:-0.0522, rsi:81.54
+3:41:15 PM | info | NVDA: Eval - price:188.82, vwap:190.39, dev:-0.825%, slope:-0.0002, rsi:79.71
+3:41:15 PM | info | NVDA: Eval - price:189.77, vwap:190.39, dev:-0.325%, slope:-0.0001, rsi:56.49
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-07T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:186.48, vwap:188.01, dev:-0.813%, slope:-0.0977, rsi:40.03
+3:41:15 PM | info | NVDA: Eval - price:186.95, vwap:187.09, dev:-0.076%, slope:-0.0055, rsi:68.40
+3:41:15 PM | info | NVDA: Eval - price:185.65, vwap:186.48, dev:-0.447%, slope:-0.2237, rsi:47.35
+3:41:15 PM | info | NVDA: Eval - price:182.80, vwap:183.67, dev:-0.475%, slope:-0.0219, rsi:43.08
+3:41:15 PM | info | NVDA: Eval - price:180.87, vwap:183.07, dev:-1.202%, slope:-0.0682, rsi:46.07
+3:41:15 PM | info | NVDA: Eval - price:183.92, vwap:182.34, dev:0.865%, slope:0.0200, rsi:31.98
+3:41:15 PM | info | NVDA: Eval - price:189.65, vwap:183.93, dev:3.108%, slope:0.0010, rsi:34.85
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-10T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:194.80, vwap:194.34, dev:0.237%, slope:0.0109, rsi:60.81
+3:41:15 PM | info | NVDA: Eval - price:193.98, vwap:194.21, dev:-0.117%, slope:-0.0048, rsi:58.83
+3:41:15 PM | info | NVDA: Eval - price:197.52, vwap:195.42, dev:1.075%, slope:0.0212, rsi:75.29
+3:41:15 PM | info | NVDA: Eval - price:199.32, vwap:196.73, dev:1.318%, slope:0.0005, rsi:41.98
+3:41:15 PM | info | NVDA: Eval - price:199.21, vwap:196.74, dev:1.257%, slope:0.0003, rsi:56.01
+3:41:15 PM | info | NVDA: Eval - price:199.11, vwap:196.74, dev:1.205%, slope:0.0002, rsi:24.44
+3:41:15 PM | info | NVDA: Eval - price:199.94, vwap:196.75, dev:1.621%, slope:0.0005, rsi:50.40
+3:41:15 PM | info | NVDA: Eval - price:199.94, vwap:196.75, dev:1.620%, slope:0.0009, rsi:58.18
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-11T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:196.25, vwap:197.25, dev:-0.506%, slope:-0.1290, rsi:28.17
+3:41:15 PM | info | NVDA: Eval - price:196.27, vwap:196.58, dev:-0.160%, slope:-0.0129, rsi:72.09
+3:41:15 PM | info | NVDA: Eval - price:195.84, vwap:196.41, dev:-0.290%, slope:-0.0097, rsi:47.88
+3:41:15 PM | info | NVDA: Eval - price:194.90, vwap:196.29, dev:-0.706%, slope:-0.0977, rsi:15.53
+3:41:15 PM | info | NVDA: Eval - price:195.31, vwap:195.75, dev:-0.224%, slope:-0.0043, rsi:42.59
+3:41:15 PM | info | NVDA: Eval - price:192.46, vwap:193.76, dev:-0.669%, slope:-0.0705, rsi:59.62
+3:41:15 PM | info | NVDA: Eval - price:192.09, vwap:193.43, dev:-0.692%, slope:-0.0255, rsi:25.82
+3:41:15 PM | info | NVDA: Eval - price:192.17, vwap:193.38, dev:-0.624%, slope:-0.0121, rsi:43.62
+3:41:15 PM | info | NVDA: Eval - price:192.83, vwap:193.19, dev:-0.185%, slope:-0.0033, rsi:60.09
+3:41:15 PM | info | NVDA: Eval - price:193.88, vwap:193.36, dev:0.273%, slope:0.0026, rsi:44.87
+3:41:15 PM | info | NVDA: Eval - price:194.31, vwap:193.38, dev:0.481%, slope:0.0047, rsi:73.74
+3:41:15 PM | info | NVDA: Eval - price:194.06, vwap:193.39, dev:0.344%, slope:0.0049, rsi:43.66
+3:41:15 PM | info | NVDA: Eval - price:193.28, vwap:193.38, dev:-0.051%, slope:-0.0000, rsi:11.93
+3:41:15 PM | info | NVDA: Eval - price:193.46, vwap:193.38, dev:0.042%, slope:0.0000, rsi:48.65
+3:41:15 PM | info | NVDA: Eval - price:193.79, vwap:193.38, dev:0.212%, slope:0.0001, rsi:43.84
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-12T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:196.02, vwap:195.90, dev:0.060%, slope:0.0057, rsi:49.28
+3:41:15 PM | info | NVDA: Eval - price:196.01, vwap:196.02, dev:-0.006%, slope:0.0014, rsi:31.15
+3:41:15 PM | info | NVDA: Eval - price:195.81, vwap:196.02, dev:-0.107%, slope:-0.0033, rsi:27.33
+3:41:15 PM | info | NVDA: Eval - price:195.77, vwap:195.76, dev:0.003%, slope:0.0000, rsi:43.04
+3:41:15 PM | info | NVDA: Eval - price:195.56, vwap:195.75, dev:-0.099%, slope:-0.0053, rsi:46.30
+3:41:15 PM | info | NVDA: Eval - price:192.63, vwap:193.10, dev:-0.243%, slope:-0.0174, rsi:68.57
+3:41:15 PM | info | NVDA: Eval - price:192.14, vwap:192.83, dev:-0.359%, slope:-0.0065, rsi:27.41
+3:41:15 PM | info | NVDA: Eval - price:191.96, vwap:192.83, dev:-0.448%, slope:-0.0112, rsi:21.95
+3:41:15 PM | info | NVDA: Eval - price:192.64, vwap:192.80, dev:-0.081%, slope:-0.0019, rsi:47.34
+3:41:15 PM | info | NVDA: Eval - price:191.91, vwap:192.74, dev:-0.433%, slope:-0.0059, rsi:35.31
+3:41:15 PM | info | NVDA: Eval - price:193.57, vwap:192.81, dev:0.394%, slope:0.0003, rsi:47.22
+3:41:15 PM | info | NVDA: Eval - price:193.25, vwap:192.81, dev:0.229%, slope:0.0000, rsi:26.29
+3:41:15 PM | info | NVDA: Eval - price:192.58, vwap:192.81, dev:-0.118%, slope:-0.0001, rsi:64.66
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-13T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:192.52, vwap:192.36, dev:0.084%, slope:0.0072, rsi:58.60
+3:41:15 PM | info | NVDA: Eval - price:192.66, vwap:192.53, dev:0.069%, slope:0.0023, rsi:29.27
+3:41:15 PM | info | NVDA: Eval - price:192.45, vwap:192.51, dev:-0.031%, slope:-0.0018, rsi:56.22
+3:41:15 PM | info | NVDA: Eval - price:192.77, vwap:192.51, dev:0.133%, slope:0.0030, rsi:69.80
+3:41:15 PM | info | NVDA: Eval - price:185.85, vwap:187.62, dev:-0.939%, slope:-0.0203, rsi:41.53
+3:41:15 PM | info | NVDA: Eval - price:186.69, vwap:187.52, dev:-0.441%, slope:-0.0065, rsi:37.66
+3:41:15 PM | info | NVDA: Eval - price:187.05, vwap:186.75, dev:0.160%, slope:0.0002, rsi:39.77
+3:41:15 PM | info | NVDA: Eval - price:187.08, vwap:186.75, dev:0.176%, slope:0.0001, rsi:40.36
+3:41:15 PM | info | NVDA: Eval - price:186.06, vwap:186.75, dev:-0.370%, slope:-0.0001, rsi:51.75
+3:41:15 PM | info | NVDA: Eval - price:187.13, vwap:186.75, dev:0.204%, slope:0.0001, rsi:83.00
+3:41:15 PM | info | NVDA: Eval - price:186.97, vwap:186.75, dev:0.118%, slope:0.0001, rsi:45.19
+3:41:15 PM | info | NVDA: Eval - price:186.96, vwap:186.75, dev:0.113%, slope:0.0000, rsi:48.09
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-14T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:183.71, vwap:184.39, dev:-0.369%, slope:-0.0209, rsi:20.48
+3:41:15 PM | info | NVDA: Eval - price:182.50, vwap:183.42, dev:-0.500%, slope:-0.0671, rsi:47.27
+3:41:15 PM | info | NVDA: Eval - price:180.69, vwap:182.70, dev:-1.102%, slope:-0.0942, rsi:35.06
+3:41:15 PM | info | NVDA: Eval - price:180.95, vwap:181.98, dev:-0.567%, slope:-0.0269, rsi:42.34
+3:41:15 PM | info | NVDA: Eval - price:180.95, vwap:181.95, dev:-0.547%, slope:-0.0141, rsi:40.16
+3:41:15 PM | info | NVDA: Eval - price:181.68, vwap:181.88, dev:-0.110%, slope:-0.0061, rsi:73.38
+3:41:15 PM | info | NVDA: Eval - price:181.39, vwap:181.86, dev:-0.261%, slope:-0.0070, rsi:52.13
+3:41:15 PM | info | NVDA: Eval - price:186.15, vwap:182.81, dev:1.823%, slope:0.4911, rsi:86.53
+3:41:15 PM | info | NVDA: Eval - price:189.42, vwap:186.76, dev:1.427%, slope:0.0179, rsi:54.18
+3:41:15 PM | info | NVDA: Eval - price:190.87, vwap:187.30, dev:1.905%, slope:0.0369, rsi:72.51
+3:41:15 PM | info | NVDA: Eval - price:190.24, vwap:187.63, dev:1.386%, slope:0.0343, rsi:58.51
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-17T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:191.85, vwap:191.86, dev:-0.006%, slope:-0.0051, rsi:53.70
+3:41:15 PM | info | NVDA: Eval - price:191.19, vwap:191.71, dev:-0.273%, slope:-0.0370, rsi:17.92
+3:41:15 PM | info | NVDA: Eval - price:190.63, vwap:191.50, dev:-0.455%, slope:-0.0346, rsi:24.48
+3:41:15 PM | info | NVDA: Eval - price:189.68, vwap:190.37, dev:-0.365%, slope:-0.0241, rsi:73.30
+3:41:15 PM | info | NVDA: Eval - price:189.20, vwap:190.27, dev:-0.564%, slope:-0.0313, rsi:30.67
+3:41:15 PM | info | NVDA: Eval - price:186.16, vwap:187.23, dev:-0.571%, slope:-0.0226, rsi:38.11
+3:41:15 PM | info | NVDA: Eval - price:187.59, vwap:187.19, dev:0.212%, slope:0.0058, rsi:81.43
+3:41:15 PM | info | NVDA: Eval - price:187.52, vwap:187.29, dev:0.123%, slope:0.0037, rsi:41.69
+3:41:15 PM | info | NVDA: Eval - price:187.11, vwap:187.29, dev:-0.095%, slope:-0.0023, rsi:30.86
+3:41:15 PM | info | NVDA: Eval - price:186.50, vwap:186.67, dev:-0.091%, slope:-0.0000, rsi:42.73
+3:41:15 PM | info | NVDA: Eval - price:186.34, vwap:186.67, dev:-0.176%, slope:-0.0000, rsi:54.25
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-18T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:184.90, vwap:185.12, dev:-0.117%, slope:-0.0532, rsi:49.17
+3:41:15 PM | info | NVDA: Eval - price:184.62, vwap:185.05, dev:-0.235%, slope:-0.0088, rsi:31.04
+3:41:15 PM | info | NVDA: Eval - price:184.64, vwap:185.02, dev:-0.206%, slope:-0.0107, rsi:46.64
+3:41:15 PM | info | NVDA: Eval - price:184.76, vwap:185.00, dev:-0.130%, slope:-0.0097, rsi:59.17
+3:41:15 PM | info | NVDA: Eval - price:184.38, vwap:184.94, dev:-0.304%, slope:-0.0087, rsi:26.11
+3:41:15 PM | info | NVDA: Eval - price:183.98, vwap:184.87, dev:-0.481%, slope:-0.0635, rsi:22.85
+3:41:15 PM | info | NVDA: Eval - price:184.75, vwap:184.82, dev:-0.037%, slope:-0.0186, rsi:75.15
+3:41:15 PM | info | NVDA: Eval - price:184.91, vwap:184.82, dev:0.049%, slope:0.0017, rsi:79.61
+3:41:15 PM | info | NVDA: Eval - price:182.15, vwap:181.95, dev:0.109%, slope:0.0107, rsi:61.20
+3:41:15 PM | info | NVDA: Eval - price:181.25, vwap:181.85, dev:-0.332%, slope:-0.0106, rsi:49.68
+3:41:15 PM | info | NVDA: Eval - price:182.47, vwap:182.03, dev:0.240%, slope:0.0057, rsi:45.90
+3:41:15 PM | info | NVDA: Eval - price:183.27, vwap:182.51, dev:0.415%, slope:0.0047, rsi:39.52
+3:41:15 PM | info | NVDA: Eval - price:182.42, vwap:182.52, dev:-0.057%, slope:-0.0002, rsi:48.49
+3:41:15 PM | info | NVDA: Eval - price:180.95, vwap:182.37, dev:-0.781%, slope:-0.0004, rsi:41.52
+3:41:15 PM | info | NVDA: Eval - price:181.15, vwap:182.37, dev:-0.669%, slope:-0.0003, rsi:56.28
+3:41:15 PM | info | NVDA: Eval - price:180.84, vwap:182.37, dev:-0.837%, slope:-0.0001, rsi:51.06
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-19T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:184.37, vwap:183.50, dev:0.472%, slope:0.0274, rsi:30.10
+3:41:15 PM | info | NVDA: Eval - price:184.34, vwap:183.53, dev:0.443%, slope:0.0183, rsi:39.75
+3:41:15 PM | info | NVDA: Eval - price:186.25, vwap:185.88, dev:0.197%, slope:0.0049, rsi:66.23
+3:41:15 PM | info | NVDA: Eval - price:186.51, vwap:185.37, dev:0.615%, slope:0.0087, rsi:81.75
+3:41:15 PM | info | NVDA: Eval - price:187.16, vwap:185.68, dev:0.799%, slope:0.0033, rsi:60.65
+3:41:15 PM | info | NVDA: Eval - price:196.05, vwap:187.26, dev:4.697%, slope:0.0045, rsi:39.15
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-20T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:195.88, vwap:196.56, dev:-0.345%, slope:-0.0333, rsi:35.71
+3:41:15 PM | info | NVDA: Eval - price:195.15, vwap:195.99, dev:-0.430%, slope:-0.0183, rsi:28.96
+3:41:15 PM | info | NVDA: Eval - price:196.09, vwap:196.07, dev:0.011%, slope:0.0012, rsi:57.16
+3:41:15 PM | info | NVDA: Eval - price:193.79, vwap:194.68, dev:-0.457%, slope:-0.6670, rsi:41.35
+3:41:15 PM | info | NVDA: Eval - price:193.92, vwap:194.39, dev:-0.241%, slope:-0.0116, rsi:46.43
+3:41:15 PM | info | NVDA: Eval - price:191.22, vwap:194.10, dev:-1.483%, slope:-0.0858, rsi:22.33
+3:41:15 PM | info | NVDA: Eval - price:183.17, vwap:189.74, dev:-3.464%, slope:-0.0499, rsi:36.24
+3:41:15 PM | info | NVDA: Eval - price:178.74, vwap:187.39, dev:-4.615%, slope:-0.0053, rsi:51.82
+3:41:15 PM | info | NVDA: Eval - price:179.01, vwap:187.38, dev:-4.468%, slope:-0.0048, rsi:72.25
+3:41:15 PM | info | NVDA: Eval - price:180.67, vwap:187.33, dev:-3.556%, slope:-0.0042, rsi:52.55
+3:41:15 PM | info | NVDA: Eval - price:180.95, vwap:187.31, dev:-3.394%, slope:-0.0014, rsi:34.85
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-21T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:176.82, vwap:176.93, dev:-0.060%, slope:0.0035, rsi:44.40
+3:41:15 PM | info | NVDA: Eval - price:177.48, vwap:177.12, dev:0.202%, slope:0.0054, rsi:28.63
+3:41:15 PM | info | NVDA: Eval - price:177.32, vwap:177.13, dev:0.107%, slope:0.0003, rsi:59.36
+3:41:15 PM | info | NVDA: Eval - price:177.00, vwap:179.72, dev:-1.511%, slope:-0.4511, rsi:17.61
+3:41:15 PM | info | NVDA: Eval - price:180.41, vwap:179.41, dev:0.555%, slope:0.0539, rsi:72.35
+3:41:15 PM | info | NVDA: Eval - price:181.27, vwap:178.07, dev:1.799%, slope:0.0274, rsi:67.07
+3:41:15 PM | info | NVDA: Eval - price:181.21, vwap:178.16, dev:1.712%, slope:0.0204, rsi:49.24
+3:41:15 PM | info | NVDA: Eval - price:183.81, vwap:178.78, dev:2.814%, slope:0.0609, rsi:64.23
+3:41:15 PM | info | NVDA: Eval - price:183.06, vwap:179.12, dev:2.205%, slope:0.0468, rsi:37.60
+3:41:15 PM | info | NVDA: Eval - price:179.91, vwap:179.36, dev:0.309%, slope:0.0038, rsi:35.00
+3:41:15 PM | info | NVDA: Eval - price:179.98, vwap:179.32, dev:0.371%, slope:0.0002, rsi:62.10
+3:41:15 PM | info | NVDA: Eval - price:180.15, vwap:179.32, dev:0.465%, slope:0.0003, rsi:67.41
+3:41:15 PM | info | NVDA: Eval - price:179.92, vwap:179.32, dev:0.336%, slope:0.0000, rsi:50.41
+3:41:15 PM | info | NVDA: Eval - price:179.97, vwap:179.32, dev:0.364%, slope:0.0000, rsi:58.66
+3:41:15 PM | info | NVDA: Eval - price:180.25, vwap:179.32, dev:0.519%, slope:0.0000, rsi:54.31
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-24T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:179.10, vwap:179.99, dev:-0.497%, slope:-0.1168, rsi:37.69
+3:41:15 PM | info | NVDA: Eval - price:179.51, vwap:179.88, dev:-0.205%, slope:-0.0055, rsi:43.49
+3:41:15 PM | info | NVDA: Eval - price:179.69, vwap:179.83, dev:-0.080%, slope:-0.0030, rsi:69.07
+3:41:15 PM | info | NVDA: Eval - price:179.86, vwap:179.84, dev:0.011%, slope:0.0016, rsi:35.83
+3:41:15 PM | info | NVDA: Eval - price:182.17, vwap:179.63, dev:1.417%, slope:0.0346, rsi:34.37
+3:41:15 PM | info | NVDA: Eval - price:182.44, vwap:179.80, dev:1.467%, slope:0.0224, rsi:63.69
+3:41:15 PM | info | NVDA: Eval - price:181.70, vwap:181.21, dev:0.269%, slope:0.0002, rsi:25.46
+3:41:15 PM | info | NVDA: Eval - price:178.25, vwap:181.20, dev:-1.627%, slope:-0.0045, rsi:17.33
+3:41:15 PM | info | NVDA: Eval - price:178.57, vwap:181.20, dev:-1.449%, slope:-0.0019, rsi:42.86
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-25T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:176.85, vwap:176.78, dev:0.038%, slope:-0.0010, rsi:68.45
+3:41:15 PM | info | NVDA: Eval - price:176.25, vwap:176.72, dev:-0.265%, slope:-0.0151, rsi:40.82
+3:41:15 PM | info | NVDA: Eval - price:175.85, vwap:176.65, dev:-0.451%, slope:-0.0279, rsi:31.78
+3:41:15 PM | info | NVDA: Eval - price:175.67, vwap:176.10, dev:-0.244%, slope:-0.0134, rsi:69.52
+3:41:15 PM | info | NVDA: Eval - price:176.11, vwap:175.90, dev:0.122%, slope:-0.0014, rsi:85.84
+3:41:15 PM | info | NVDA: Eval - price:171.33, vwap:173.03, dev:-0.985%, slope:-0.0821, rsi:35.13
+3:41:15 PM | info | NVDA: Eval - price:174.24, vwap:172.58, dev:0.960%, slope:0.0197, rsi:29.51
+3:41:15 PM | info | NVDA: Eval - price:174.49, vwap:172.72, dev:1.024%, slope:0.0154, rsi:32.67
+3:41:15 PM | info | NVDA: Eval - price:174.10, vwap:173.39, dev:0.409%, slope:0.0077, rsi:19.79
+3:41:15 PM | info | NVDA: Eval - price:176.70, vwap:174.24, dev:1.412%, slope:0.0004, rsi:59.11
+3:41:15 PM | info | NVDA: Eval - price:177.58, vwap:174.27, dev:1.902%, slope:0.0006, rsi:71.17
+3:41:15 PM | info | NVDA: Eval - price:177.22, vwap:174.27, dev:1.694%, slope:0.0007, rsi:34.85
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-26T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:178.68, vwap:176.98, dev:0.960%, slope:0.0462, rsi:67.12
+3:41:15 PM | info | NVDA: Eval - price:180.72, vwap:180.29, dev:0.241%, slope:0.0094, rsi:52.09
+3:41:15 PM | info | NVDA: Eval - price:180.90, vwap:180.42, dev:0.264%, slope:0.0042, rsi:69.26
+3:41:15 PM | info | NVDA: Eval - price:179.67, vwap:180.40, dev:-0.409%, slope:-0.0001, rsi:35.01
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-11-28T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:180.55, vwap:180.17, dev:0.212%, slope:0.0058, rsi:74.08
+3:41:15 PM | info | NVDA: Eval - price:180.66, vwap:180.21, dev:0.251%, slope:0.0049, rsi:55.89
+3:41:15 PM | info | NVDA: Eval - price:180.71, vwap:180.22, dev:0.273%, slope:0.0049, rsi:60.27
+3:41:15 PM | info | NVDA: Eval - price:179.82, vwap:180.41, dev:-0.323%, slope:-0.0130, rsi:24.48
+3:41:15 PM | info | NVDA: Eval - price:179.62, vwap:180.35, dev:-0.408%, slope:-0.0512, rsi:33.15
+3:41:15 PM | info | NVDA: Eval - price:177.35, vwap:178.06, dev:-0.396%, slope:-0.0138, rsi:24.68
+3:41:15 PM | info | NVDA: Eval - price:176.98, vwap:177.82, dev:-0.475%, slope:-0.0104, rsi:37.10
+3:41:15 PM | info | NVDA: Eval - price:177.24, vwap:177.78, dev:-0.303%, slope:-0.0098, rsi:70.26
+3:41:15 PM | info | NVDA: Eval - price:176.53, vwap:177.51, dev:-0.552%, slope:-0.0003, rsi:39.24
+3:41:15 PM | info | NVDA: Eval - price:176.68, vwap:177.51, dev:-0.466%, slope:-0.0001, rsi:30.22
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-01T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:175.25, vwap:175.29, dev:-0.025%, slope:-0.0109, rsi:45.42
+3:41:15 PM | info | NVDA: Eval - price:174.86, vwap:174.29, dev:0.327%, slope:0.0146, rsi:43.57
+3:41:15 PM | info | NVDA: Eval - price:178.15, vwap:176.23, dev:1.088%, slope:0.1160, rsi:57.95
+3:41:15 PM | info | NVDA: Eval - price:179.90, vwap:177.25, dev:1.493%, slope:0.1316, rsi:76.68
+3:41:15 PM | info | NVDA: Eval - price:179.93, vwap:178.57, dev:0.764%, slope:0.0388, rsi:70.63
+3:41:15 PM | info | NVDA: Eval - price:179.84, vwap:178.80, dev:0.584%, slope:0.0002, rsi:57.75
+3:41:15 PM | info | NVDA: Eval - price:179.90, vwap:178.80, dev:0.617%, slope:0.0001, rsi:74.14
+3:41:15 PM | info | NVDA: Eval - price:179.75, vwap:178.80, dev:0.533%, slope:0.0000, rsi:41.71
+3:41:15 PM | info | NVDA: Eval - price:179.80, vwap:178.80, dev:0.560%, slope:0.0001, rsi:44.31
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-02T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:180.88, vwap:180.35, dev:0.295%, slope:0.0847, rsi:73.40
+3:41:15 PM | info | NVDA: Eval - price:180.69, vwap:180.39, dev:0.166%, slope:0.0197, rsi:41.90
+3:41:15 PM | info | NVDA: Eval - price:185.08, vwap:183.72, dev:0.740%, slope:0.2592, rsi:68.64
+3:41:15 PM | info | NVDA: Eval - price:185.51, vwap:184.20, dev:0.712%, slope:0.0803, rsi:72.50
+3:41:15 PM | info | NVDA: Eval - price:181.15, vwap:183.26, dev:-1.154%, slope:-0.0244, rsi:58.00
+3:41:15 PM | info | NVDA: Eval - price:181.52, vwap:183.17, dev:-0.902%, slope:-0.0163, rsi:46.83
+3:41:15 PM | info | NVDA: Eval - price:181.46, vwap:182.46, dev:-0.547%, slope:-0.0000, rsi:49.93
+3:41:15 PM | info | NVDA: Eval - price:181.45, vwap:182.46, dev:-0.552%, slope:-0.0002, rsi:62.70
+3:41:15 PM | info | NVDA: Eval - price:180.96, vwap:182.46, dev:-0.820%, slope:-0.0001, rsi:26.14
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-03T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:182.14, vwap:181.97, dev:0.094%, slope:0.0076, rsi:79.27
+3:41:15 PM | info | NVDA: Eval - price:182.90, vwap:182.31, dev:0.324%, slope:0.0183, rsi:73.24
+3:41:15 PM | info | NVDA: Eval - price:180.53, vwap:180.67, dev:-0.077%, slope:-0.0005, rsi:35.84
+3:41:15 PM | info | NVDA: Eval - price:180.59, vwap:180.67, dev:-0.042%, slope:-0.0005, rsi:49.72
+3:41:15 PM | info | NVDA: Eval - price:180.02, vwap:180.66, dev:-0.357%, slope:-0.0064, rsi:39.68
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-04T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:183.58, vwap:182.57, dev:0.552%, slope:0.0005, rsi:59.88
+3:41:15 PM | info | NVDA: Eval - price:183.48, vwap:182.58, dev:0.495%, slope:0.0002, rsi:45.12
+3:41:15 PM | info | NVDA: Eval - price:183.25, vwap:182.58, dev:0.368%, slope:0.0005, rsi:21.20
+3:41:15 PM | info | NVDA: Eval - price:183.39, vwap:182.58, dev:0.445%, slope:0.0001, rsi:87.72
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-05T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:184.63, vwap:184.71, dev:-0.043%, slope:-0.0018, rsi:54.42
+3:41:15 PM | info | NVDA: Eval - price:184.36, vwap:184.63, dev:-0.148%, slope:-0.0032, rsi:29.49
+3:41:15 PM | info | NVDA: Eval - price:184.07, vwap:184.55, dev:-0.258%, slope:-0.0176, rsi:35.70
+3:41:15 PM | info | NVDA: Eval - price:181.97, vwap:182.27, dev:-0.167%, slope:-0.0020, rsi:63.94
+3:41:15 PM | info | NVDA: Eval - price:182.42, vwap:182.26, dev:0.090%, slope:0.0001, rsi:51.83
+3:41:15 PM | info | NVDA: Eval - price:182.22, vwap:182.26, dev:-0.020%, slope:-0.0000, rsi:26.02
+3:41:15 PM | info | NVDA: Eval - price:182.28, vwap:182.26, dev:0.013%, slope:0.0000, rsi:76.48
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-08T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:184.89, vwap:184.68, dev:0.116%, slope:0.0011, rsi:67.31
+3:41:15 PM | info | NVDA: Eval - price:184.56, vwap:184.67, dev:-0.061%, slope:-0.0014, rsi:54.23
+3:41:15 PM | info | NVDA: Eval - price:190.00, vwap:185.02, dev:2.694%, slope:0.0076, rsi:41.12
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-09T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:188.50, vwap:188.73, dev:-0.119%, slope:-0.0189, rsi:55.41
+3:41:15 PM | info | NVDA: Eval - price:189.20, vwap:188.73, dev:0.249%, slope:0.0163, rsi:82.87
+3:41:15 PM | info | NVDA: Eval - price:186.65, vwap:187.95, dev:-0.693%, slope:-0.0640, rsi:38.97
+3:41:15 PM | info | NVDA: Eval - price:184.74, vwap:184.87, dev:-0.070%, slope:-0.0089, rsi:69.17
+3:41:15 PM | info | NVDA: Eval - price:185.14, vwap:184.91, dev:0.124%, slope:0.0084, rsi:43.40
+3:41:15 PM | info | NVDA: Eval - price:184.84, vwap:184.90, dev:-0.029%, slope:-0.0001, rsi:48.26
+3:41:15 PM | info | NVDA: Eval - price:184.62, vwap:184.90, dev:-0.152%, slope:-0.0014, rsi:22.98
+3:41:15 PM | info | NVDA: Eval - price:184.60, vwap:184.89, dev:-0.153%, slope:-0.0018, rsi:27.55
+3:41:15 PM | info | NVDA: Eval - price:184.65, vwap:184.88, dev:-0.125%, slope:-0.0011, rsi:52.72
+3:41:15 PM | info | NVDA: Eval - price:184.66, vwap:184.82, dev:-0.087%, slope:-0.0000, rsi:57.26
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-10T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:185.28, vwap:185.07, dev:0.114%, slope:0.0018, rsi:49.45
+3:41:15 PM | info | NVDA: Eval - price:185.35, vwap:185.13, dev:0.119%, slope:0.0018, rsi:56.84
+3:41:15 PM | info | NVDA: Eval - price:184.46, vwap:184.79, dev:-0.179%, slope:-0.0254, rsi:38.69
+3:41:15 PM | info | NVDA: Eval - price:182.89, vwap:183.88, dev:-0.538%, slope:-0.0296, rsi:74.14
+3:41:15 PM | info | NVDA: Eval - price:182.36, vwap:183.75, dev:-0.757%, slope:-0.0334, rsi:26.38
+3:41:15 PM | info | NVDA: Eval - price:183.10, vwap:183.54, dev:-0.239%, slope:-0.0042, rsi:48.69
+3:41:15 PM | info | NVDA: Eval - price:183.52, vwap:183.44, dev:0.046%, slope:-0.0024, rsi:81.32
+3:41:15 PM | info | NVDA: Eval - price:182.85, vwap:183.42, dev:-0.309%, slope:-0.0039, rsi:28.26
+3:41:15 PM | info | NVDA: Eval - price:181.79, vwap:183.48, dev:-0.923%, slope:-0.0031, rsi:38.67
+3:41:15 PM | info | NVDA: Eval - price:181.57, vwap:183.45, dev:-1.026%, slope:-0.0005, rsi:52.50
+3:41:15 PM | info | NVDA: Eval - price:181.60, vwap:183.45, dev:-1.007%, slope:-0.0010, rsi:59.49
+3:41:15 PM | info | NVDA: Eval - price:181.37, vwap:183.44, dev:-1.132%, slope:-0.0004, rsi:51.02
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-11T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:180.83, vwap:180.58, dev:0.136%, slope:0.0022, rsi:61.49
+3:41:15 PM | info | NVDA: Eval - price:181.15, vwap:180.80, dev:0.196%, slope:0.0063, rsi:33.36
+3:41:15 PM | info | NVDA: Eval - price:181.22, vwap:180.98, dev:0.130%, slope:0.0035, rsi:47.88
+3:41:15 PM | info | NVDA: Eval - price:178.96, vwap:178.09, dev:0.490%, slope:0.0097, rsi:60.18
+3:41:15 PM | info | NVDA: Eval - price:179.20, vwap:178.19, dev:0.567%, slope:0.0208, rsi:46.21
+3:41:15 PM | info | NVDA: Eval - price:180.38, vwap:179.11, dev:0.712%, slope:0.0005, rsi:64.19
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-12T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:181.78, vwap:181.45, dev:0.182%, slope:0.0027, rsi:50.00
+3:41:15 PM | info | NVDA: Eval - price:181.73, vwap:181.85, dev:-0.068%, slope:0.0435, rsi:41.96
+3:41:15 PM | info | NVDA: Eval - price:177.79, vwap:178.45, dev:-0.368%, slope:-0.0402, rsi:76.92
+3:41:15 PM | info | NVDA: Eval - price:176.73, vwap:178.35, dev:-0.909%, slope:-0.0117, rsi:18.45
+3:41:15 PM | info | NVDA: Eval - price:175.45, vwap:178.02, dev:-1.441%, slope:-0.0258, rsi:27.39
+3:41:15 PM | info | NVDA: Eval - price:175.03, vwap:177.40, dev:-1.336%, slope:-0.0356, rsi:53.84
+3:41:15 PM | info | NVDA: Eval - price:175.06, vwap:177.36, dev:-1.294%, slope:-0.0011, rsi:53.47
+3:41:15 PM | info | NVDA: Eval - price:174.83, vwap:177.33, dev:-1.411%, slope:-0.0003, rsi:15.35
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-15T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:176.79, vwap:176.95, dev:-0.090%, slope:-0.0022, rsi:44.99
+3:41:15 PM | info | NVDA: Eval - price:177.83, vwap:177.14, dev:0.391%, slope:0.0085, rsi:54.28
+3:41:15 PM | info | NVDA: Eval - price:176.41, vwap:176.90, dev:-0.279%, slope:-0.0001, rsi:29.72
+3:41:15 PM | info | NVDA: Eval - price:176.56, vwap:176.90, dev:-0.194%, slope:-0.0001, rsi:72.64
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-16T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:175.33, vwap:175.19, dev:0.081%, slope:0.0132, rsi:45.18
+3:41:15 PM | info | NVDA: Eval - price:176.78, vwap:175.60, dev:0.674%, slope:0.0481, rsi:77.34
+3:41:15 PM | info | NVDA: Eval - price:176.85, vwap:175.71, dev:0.647%, slope:0.0204, rsi:70.93
+3:41:15 PM | info | NVDA: Eval - price:176.21, vwap:176.43, dev:-0.126%, slope:-0.0003, rsi:37.33
+3:41:15 PM | info | NVDA: Eval - price:176.69, vwap:176.50, dev:0.105%, slope:0.0018, rsi:21.62
+3:41:15 PM | info | NVDA: Eval - price:177.50, vwap:176.81, dev:0.389%, slope:0.0003, rsi:48.95
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-17T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:178.31, vwap:177.84, dev:0.267%, slope:0.0178, rsi:63.65
+3:41:15 PM | info | NVDA: Eval - price:177.94, vwap:177.90, dev:0.024%, slope:0.0004, rsi:55.23
+3:41:15 PM | info | NVDA: Eval - price:178.04, vwap:177.79, dev:0.142%, slope:-0.0021, rsi:50.61
+3:41:15 PM | info | NVDA: Eval - price:171.92, vwap:172.77, dev:-0.493%, slope:-0.0088, rsi:64.12
+3:41:15 PM | info | NVDA: Eval - price:171.39, vwap:172.68, dev:-0.744%, slope:-0.0102, rsi:28.06
+3:41:15 PM | info | NVDA: Eval - price:172.02, vwap:172.17, dev:-0.085%, slope:-0.0001, rsi:57.96
+3:41:15 PM | info | NVDA: Eval - price:171.31, vwap:172.15, dev:-0.490%, slope:-0.0001, rsi:69.55
+3:41:15 PM | info | NVDA: Eval - price:171.04, vwap:172.15, dev:-0.647%, slope:-0.0001, rsi:30.37
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-18T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:175.19, vwap:174.12, dev:0.616%, slope:0.0197, rsi:40.31
+3:41:15 PM | info | NVDA: Eval - price:174.51, vwap:174.34, dev:0.095%, slope:0.0010, rsi:68.51
+3:41:15 PM | info | NVDA: Eval - price:175.21, vwap:174.38, dev:0.475%, slope:0.0049, rsi:66.90
+3:41:15 PM | info | NVDA: Eval - price:174.76, vwap:174.44, dev:0.185%, slope:0.0026, rsi:29.81
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-19T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:176.67, vwap:176.42, dev:0.143%, slope:0.0074, rsi:71.54
+3:41:15 PM | info | NVDA: Eval - price:176.35, vwap:176.48, dev:-0.072%, slope:-0.0024, rsi:31.34
+3:41:15 PM | info | NVDA: Eval - price:176.00, vwap:176.50, dev:-0.285%, slope:-0.0100, rsi:55.39
+3:41:15 PM | info | NVDA: Eval - price:179.43, vwap:178.47, dev:0.539%, slope:0.0075, rsi:62.13
+3:41:15 PM | info | NVDA: Eval - price:179.27, vwap:178.48, dev:0.444%, slope:0.0100, rsi:42.99
+3:41:15 PM | info | NVDA: Eval - price:179.41, vwap:178.48, dev:0.519%, slope:0.0102, rsi:57.97
+3:41:15 PM | info | NVDA: Eval - price:180.60, vwap:179.33, dev:0.711%, slope:0.0186, rsi:67.86
+3:41:15 PM | info | NVDA: Eval - price:181.00, vwap:180.05, dev:0.530%, slope:0.0001, rsi:65.37
+3:41:15 PM | info | NVDA: Eval - price:181.27, vwap:180.05, dev:0.681%, slope:0.0000, rsi:50.35
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-22T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:183.19, vwap:182.88, dev:0.168%, slope:0.0080, rsi:66.31
+3:41:15 PM | info | NVDA: Eval - price:184.44, vwap:183.58, dev:0.468%, slope:0.0281, rsi:51.34
+3:41:15 PM | info | NVDA: Eval - price:183.27, vwap:183.35, dev:-0.044%, slope:-0.0012, rsi:62.06
+3:41:15 PM | info | NVDA: Eval - price:182.98, vwap:183.34, dev:-0.196%, slope:-0.0031, rsi:30.28
+3:41:15 PM | info | NVDA: Eval - price:183.29, vwap:183.32, dev:-0.013%, slope:-0.0004, rsi:72.79
+3:41:15 PM | info | NVDA: Eval - price:183.32, vwap:183.32, dev:0.000%, slope:0.0003, rsi:36.00
+3:41:15 PM | info | NVDA: Eval - price:183.40, vwap:183.32, dev:0.046%, slope:0.0004, rsi:57.09
+3:41:15 PM | info | NVDA: Eval - price:183.29, vwap:183.32, dev:-0.015%, slope:-0.0001, rsi:34.88
+3:41:15 PM | info | NVDA: Eval - price:183.48, vwap:183.39, dev:0.048%, slope:0.0000, rsi:44.30
+3:41:15 PM | info | NVDA: Eval - price:183.46, vwap:183.39, dev:0.034%, slope:0.0000, rsi:58.27
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-23T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:183.76, vwap:183.42, dev:0.185%, slope:0.0213, rsi:70.01
+3:41:15 PM | info | NVDA: Eval - price:182.26, vwap:182.64, dev:-0.209%, slope:-0.0070, rsi:43.32
+3:41:15 PM | info | NVDA: Eval - price:184.14, vwap:183.99, dev:0.084%, slope:0.0315, rsi:43.70
+3:41:15 PM | info | NVDA: Eval - price:188.31, vwap:186.18, dev:1.144%, slope:0.0230, rsi:57.12
+3:41:15 PM | info | NVDA: Eval - price:188.47, vwap:186.29, dev:1.171%, slope:0.0187, rsi:80.00
+3:41:15 PM | info | NVDA: Eval - price:188.63, vwap:186.37, dev:1.213%, slope:0.0221, rsi:67.07
+3:41:15 PM | info | NVDA: Eval - price:188.56, vwap:186.64, dev:1.028%, slope:0.0127, rsi:39.61
+3:41:15 PM | info | NVDA: Eval - price:188.74, vwap:187.27, dev:0.787%, slope:0.0005, rsi:39.28
+3:41:15 PM | info | NVDA: Eval - price:188.60, vwap:187.28, dev:0.705%, slope:0.0001, rsi:46.26
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-24T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:188.53, vwap:188.46, dev:0.037%, slope:0.0013, rsi:66.49
+3:41:15 PM | info | NVDA: Eval - price:187.95, vwap:188.50, dev:-0.293%, slope:-0.0697, rsi:15.97
+3:41:15 PM | info | NVDA: Eval - price:187.21, vwap:187.97, dev:-0.404%, slope:-0.0488, rsi:19.39
+3:41:15 PM | info | NVDA: Eval - price:188.35, vwap:187.94, dev:0.218%, slope:0.0000, rsi:41.67
+3:41:15 PM | info | NVDA: Eval - price:188.41, vwap:187.94, dev:0.250%, slope:0.0001, rsi:73.23
+3:41:15 PM | info | NVDA: Eval - price:188.03, vwap:187.94, dev:0.047%, slope:0.0000, rsi:4.11
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-26T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:189.90, vwap:189.80, dev:0.050%, slope:0.0032, rsi:60.88
+3:41:15 PM | info | NVDA: Eval - price:191.30, vwap:191.23, dev:0.038%, slope:0.0220, rsi:35.89
+3:41:15 PM | info | NVDA: Eval - price:191.43, vwap:191.21, dev:0.113%, slope:0.0024, rsi:64.68
+3:41:15 PM | info | NVDA: Eval - price:191.72, vwap:191.42, dev:0.159%, slope:0.0024, rsi:24.79
+3:41:15 PM | info | NVDA: Eval - price:190.12, vwap:191.31, dev:-0.621%, slope:-0.0007, rsi:21.12
+3:41:15 PM | info | NVDA: Eval - price:190.21, vwap:191.30, dev:-0.571%, slope:-0.0001, rsi:36.40
+3:41:15 PM | info | NVDA: Eval - price:190.50, vwap:191.30, dev:-0.417%, slope:-0.0002, rsi:78.06
+3:41:15 PM | info | NVDA: Eval - price:190.15, vwap:191.30, dev:-0.601%, slope:-0.0001, rsi:53.08
+3:41:15 PM | info | NVDA: Eval - price:190.16, vwap:191.30, dev:-0.596%, slope:-0.0000, rsi:59.99
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-29T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:187.72, vwap:188.25, dev:-0.283%, slope:-0.0291, rsi:17.80
+3:41:15 PM | info | NVDA: Eval - price:188.13, vwap:188.11, dev:0.013%, slope:0.0007, rsi:62.31
+3:41:15 PM | info | NVDA: Eval - price:186.53, vwap:187.12, dev:-0.314%, slope:-0.0079, rsi:21.94
+3:41:15 PM | info | NVDA: Eval - price:187.87, vwap:187.26, dev:0.324%, slope:0.0038, rsi:43.60
+3:41:15 PM | info | NVDA: Eval - price:188.20, vwap:187.39, dev:0.430%, slope:0.0080, rsi:58.35
+3:41:15 PM | info | NVDA: Eval - price:187.72, vwap:187.40, dev:0.172%, slope:0.0000, rsi:53.32
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-30T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:187.25, vwap:187.60, dev:-0.189%, slope:-0.0147, rsi:54.89
+3:41:15 PM | info | NVDA: Eval - price:187.84, vwap:187.59, dev:0.131%, slope:0.0085, rsi:71.92
+3:41:15 PM | info | NVDA: Eval - price:187.84, vwap:187.75, dev:0.047%, slope:0.0008, rsi:41.33
+3:41:15 PM | info | NVDA: Eval - price:187.87, vwap:187.75, dev:0.060%, slope:0.0008, rsi:50.56
+3:41:15 PM | info | NVDA: Eval - price:188.25, vwap:187.77, dev:0.255%, slope:0.0041, rsi:77.09
+3:41:15 PM | info | NVDA: Eval - price:188.11, vwap:187.82, dev:0.155%, slope:0.0022, rsi:43.98
+3:41:15 PM | info | NVDA: Eval - price:187.20, vwap:187.77, dev:-0.304%, slope:-0.0001, rsi:39.91
+3:41:15 PM | info | Doing Daily Risk Reset at 2025-12-31T09:00:00.000Z
+3:41:15 PM | info | NVDA: Eval - price:186.86, vwap:186.94, dev:-0.043%, slope:-0.0060, rsi:56.91
+3:41:15 PM | info | NVDA: Eval - price:186.90, vwap:186.85, dev:0.027%, slope:0.0003, rsi:71.06
+3:41:15 PM | info | NVDA: Eval - price:188.89, vwap:189.05, dev:-0.084%, slope:-0.0076, rsi:61.43
+3:41:15 PM | info | NVDA: Eval - price:188.92, vwap:188.98, dev:-0.034%, slope:-0.0013, rsi:55.17
+3:41:15 PM | info | NVDA: Eval - price:188.81, vwap:188.89, dev:-0.039%, slope:-0.0007, rsi:39.68
+3:41:15 PM | info | NVDA: Eval - price:188.70, vwap:188.88, dev:-0.097%, slope:-0.0009, rsi:25.90
+3:41:15 PM | info | NVDA: Eval - price:188.93, vwap:188.88, dev:0.027%, slope:0.0006, rsi:52.29
+3:41:15 PM | info | NVDA: Eval - price:187.66, vwap:188.79, dev:-0.596%, slope:-0.0144, rsi:43.61

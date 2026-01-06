@@ -1,0 +1,55 @@
+# Usage:
+# 1. Ensure you have the "REST Client" extension installed in VS Code.
+# 2. This file expects variables to be defined in your environment or Settings.json.
+#    However, for quick testing, you can uncomment the @ lines below and paste your keys,
+#    OR just rely on the extension reading your .env file if configured.
+
+@baseUrl = https://paper-api.alpaca.markets
+@apiKey = {{$dotenv ALPACA_API_KEY}}
+@secretKey = {{$dotenv ALPACA_SECRET_KEY}}
+@symbol = {{$dotenv TRADING_SYMBOL}}
+
+### 1. Get Account Details
+# Verifies connectivity and authentication
+GET {{baseUrl}}/v2/account
+APCA-API-KEY-ID: {{apiKey}}
+APCA-API-SECRET-KEY: {{secretKey}}
+
+### 2. Get Market Clock
+# Checks if the market is open
+GET {{baseUrl}}/v2/clock
+APCA-API-KEY-ID: {{apiKey}}
+APCA-API-SECRET-KEY: {{secretKey}}
+
+### 3. Get All Positions
+# See what you are currently holding
+GET {{baseUrl}}/v2/positions
+APCA-API-KEY-ID: {{apiKey}}
+APCA-API-SECRET-KEY: {{secretKey}}
+
+### 4. Get Latest Quote for Symbol
+# Checks data permissions
+GET {{baseUrl}}/v2/stocks/{{symbol}}/quotes/latest
+APCA-API-KEY-ID: {{apiKey}}
+APCA-API-SECRET-KEY: {{secretKey}}
+
+### 5. Get Latest Bar for Symbol
+GET {{baseUrl}}/v2/stocks/{{symbol}}/bars/latest
+APCA-API-KEY-ID: {{apiKey}}
+APCA-API-SECRET-KEY: {{secretKey}}
+
+### 6. Place a Limit Buy Order (Paper Trading Only!)
+# Be careful running this!
+# POST {{baseUrl}}/v2/orders
+# APCA-API-KEY-ID: {{apiKey}}
+# APCA-API-SECRET-KEY: {{secretKey}}
+# Content-Type: application/json
+
+# {
+#     "symbol": "{{symbol}}",
+#     "qty": 1,
+#     "side": "buy",
+#     "type": "limit",
+#     "limit_price": 400.00,
+#     "time_in_force": "day"
+# }

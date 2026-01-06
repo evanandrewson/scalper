@@ -1,0 +1,57 @@
+trading:
+  symbols:
+    - NVDA
+
+  timeframe: '1Min'
+  max_slippage_pct: 0.001 # 0.1% max slippage tolerance
+
+  schedule:
+    start_time: '09:30' # ET
+    end_time: '15:00' # ET (Stop entering 1 hour before close to avoid EOD exits)
+    days: [0, 1, 2, 3, 4] # Monday to Friday
+
+strategy:
+  vwap:
+    period: 0
+    entry_threshold: 0.001 # Changed back to 0.001 (0.1% deviation)
+    exit_threshold: 0.0002
+    require_confirmation: false
+
+  filters:
+    max_spread: 0.05
+    min_volume_mult: 1.0 # Increased to 1.0 to filter low quality
+    chop_threshold: 100
+    vwap_slope_lookback: 2
+    atr_period: 3
+    rsi_period: 7 # Faster RSI for scalping
+    rsi_oversold: 30 # Stricter entry
+    rsi_overbought: 70 # Stricter entry
+    min_atr_pct: 0.0001 # Corrected to 0.01% (was 0.01 = 1%)
+
+  position:
+    size: 0 # Ignored when sizing_type is risk_pct
+    sizing_type: 'risk_pct'
+    max_risk_pct: 0.01 # 1% Risk per trade
+    max_positions: 5
+
+  risk:
+    stop_loss_pct: 0.002 # Tightened to 0.2%
+    take_profit_pct: 0.002 # Back to 0.2% for high hit rate
+    max_daily_loss: 500
+    max_position_loss: 100
+    max_hold_seconds: 3600 # Force exit after 1 hour if not profitable
+    trailing_stop: False # DISABLE TRAILING STOP to avoid premature exits
+    trailing_stop_pct: 0.003 # 0.3% Trailing (looser than SL initially)
+    max_trades_per_day: 100 # Increased for testing
+    max_losses_per_day: 50
+    cooldown_minutes: 0 # Disabled for testing
+
+bot:
+  dry_run: True
+  log_level: 'INFO'
+  log_to_file: True
+
+backtesting:
+  start_date: '2024-01-01'
+  end_date: '2024-12-31'
+  initial_capital: 10000
